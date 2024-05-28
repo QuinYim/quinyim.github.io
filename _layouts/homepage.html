@@ -139,26 +139,24 @@
         {% if site.link_type == 'icon' %}
         <div class="social-icons">
 
-        <!-- {% if site.email %}
-        <a style="margin: 0 0 0 0" href="{{ mailto:kyan@stu.xidian.edu.cn }}">
-          <i class="far fa-envelope"></i>
-        </a>
-        {% endif %} -->
-
         {% if site.email %}
-        <li><a href="mailto:{{ site.email }}"><i class="far fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <a style="margin: 0 0 0 0" href="mailto:{{ site.email }}">
+          <i class="far fa-envelope" aria-hidden="true"></i>
+        </a>
         {% endif %}
 
+        <!-- {% if site.email %}
+        <li><a href="mailto:{{ site.email }}"><i class="far fa-envelope" aria-hidden="true"></i> Email</a></li>
+        {% endif %} -->
 
-        <!-- {% if site.google_scholar %}
+
+        {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
-        {% endif %}  -->
+        {% endif %} 
 
-        {% if site.google_scholar %}
-        <li><a href="{{ site.google_scholar }}"><i class="ai ai-google-scholar" style="font-size:1.2rem"></i> Google Scholar</a></li>
-        {% endif %}
+
 
         {% if site.orcid %}
         <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
