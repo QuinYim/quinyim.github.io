@@ -1,0 +1,49 @@
+# Basic Information 
+title: Xinyue Wang
+position: Student
+affiliation: Stanford University OHS
+affiliation_link: https://www.stanford.edu/
+affiliation_logo: ./assets/img/stanford%20logo%20updated.png
+email: wxinyue (at) ohs.stanford.edu
+
+# Search Engine Optimization (SEO)
+keywords: xinyue wang, wang xinyue, xinyuewang, wangxinyue, xinyue wang stanford
+canonical: https://xinyue.me
+description: Xinyue is a student at Stanford University Online High School. His research lies in gender and sexuality studies.
+
+# The option is used to enable the Johns Hopkins template.
+enable_hopkins_logo: true
+
+# The option is used to show the last update time.
+enable_last_update: false
+
+# Links
+link_type: icon #text/icon
+google_scholar: 
+cv_link: 
+github_link: https://github.com/xinyue0221/
+linkedin: https://www.linkedin.com/in/xinyue-wang-37168a248/
+twitter: https://x.com/fULxY5rT0SJWP2j/
+
+# Images 
+avatar: ./assets/img/xinyuewang_profilephoto.jpg
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Footnotes
+footnote: © 2023 Xinyue Wang
+footnote_link: https://xinyue.me
+
+# Analytics
+# Please remove the following lines about analytics services if you fork my project. 
+# Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
+clustrmaps_id: 
+
+# The following files will be removed from the generated website.
+exclude:
+  - build.sh
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
