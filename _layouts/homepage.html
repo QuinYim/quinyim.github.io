@@ -60,7 +60,7 @@
     
     <div class="topnav">
 
-      <!-- <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo }}"></a> -->
+      <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo }}"></a>
 
       <div id="myLinks">
       {% include navigation.md %}
@@ -111,6 +111,10 @@
         {% endif %} -->
         {% if site.affiliation %}
         <affiliation style="font-size:1.10rem;">{{ site.affiliation }}</affiliation>
+        <br>
+        {% endif %}
+        {% if site.location %}
+        <location style="font-size:1.10rem;">{{ site.location }}</location>
         <br>
         {% endif %}
         {% if site.email %}
