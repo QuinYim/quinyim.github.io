@@ -24,3 +24,5 @@ I am a Ph.D. student in the School of Telecommunications Engineering at [Xidian 
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+{% include_relative _includes/contact.md %}
