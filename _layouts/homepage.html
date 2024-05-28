@@ -145,8 +145,8 @@
         </a>
         {% endif %} -->
 
-        {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        {% if site.email %}
+        <li><a href="mailto:{{ site.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
         {% endif %}
 
 
@@ -156,8 +156,8 @@
         </a>  
         {% endif %}  -->
 
-        {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+        {% if site.googlescholar %}
+        <li><a href="{{ site.google_scholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
         {% endif %}
 
         {% if site.orcid %}
