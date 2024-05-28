@@ -1,22 +1,30 @@
 ---
 layout: homepage
 ---
-
 <h1 id="about-me"></h1>
 
-<h2 style="margin: 60px 0px 10px;">About Me</h2>
+<h2 style="margin: 60px 0px 10px;">Biography</h2>
 
-I'm Xinyue Wang, a student at [Stanford University](https://www.stanford.edu/) [OHS](https://ohs.stanford.edu/) with a deep interest in Gender Studies, Human Sexuality, and Math. Driven by a passion for understanding complex societal dynamics and identities, I integrate mathematical precision in analyzing these nuanced subjects. My aim is to contribute to impactful research that fosters inclusivity and awareness. Beyond academics, I actively engage in community outreach and education, aspiring to inspire and empower through knowledge. My journey is marked by intellectual curiosity and a commitment to societal betterment.
+I am a Ph.D. student in the School of Telecommunications Engineering at [Xidian University](https://www.xidian.edu.cn/). I am fortunate to work with and be advised by [Prof. Wenping Ma](https://web.xidian.edu.cn/mawenping/). I am interested in resource management and security privacy in future 6G networks. Specifically, I focus on communication and network resource management and sharing, blockchain-based network management. I also have a strong passion for security and privacy in distributed networks.
 
-My research lies at the intersection of **gender studies** and **human psychology** -- with a special focus on utilizing mathematical theories and methods to analyze patterns and data related to gender, human sexuality and sadomasochistic interests. My research interests include **quantitative analysis in gender studies**, **societal impact studies**, **gender roles**, and **media perception**.
+<h2 style="margin: 60px 0px 10px;">Research Interests</h2>
 
-<strong style="color:#e74d3c; font-weight:600; display: none;">
-    BLANK.
-</strong>
+- **6G networks:** distributed network management, resource sharing, security and privacy.
+- **Blockchain:** consensus mechanisms, distributed network applications.
+- **Internet of things:** intelligent transportation systems, distributed security.
+
+<h2 style="margin: 60px 0px 10px;">Educations</h2>
+
+* 2021.08 - 2025.06, Ph.D., School of Telecommunications Engineering, Xidian University.
+* 2019.08 - 2021.08, Master, School of Telecommunications Engineering, Xidian University.
+* 2015.08 - 2019.06, Undergraduate, School of Computer Science and Engineering, Xi'an University of Technology.
+
 
 
 {% include_relative _includes/news.md %}
 
+{% include_relative _includes/research.md %}
+
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/contact.md %}
+{% include_relative _includes/services.md %}

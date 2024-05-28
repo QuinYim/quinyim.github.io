@@ -1,15 +1,15 @@
 # Basic Information 
-title: Xinyue Wang
-position: Student
-affiliation: Stanford University OHS
-affiliation_link: https://www.stanford.edu/
-affiliation_logo: ./assets/img/stanford%20logo%20updated.png
-email: wxinyue (at) ohs.stanford.edu
+title: Kun Yan / Quin Yim
+position: Ph.D. Student
+affiliation: Xidian University
+location: Xi'an, China
+email: kyan@stu.xidian.edu.cn
 
 # Search Engine Optimization (SEO)
-keywords: xinyue wang, wang xinyue, xinyuewang, wangxinyue, xinyue wang stanford
-canonical: https://xinyue.me
-description: Xinyue is a student at Stanford University Online High School. His research lies in gender and sexuality studies.
+keywords: kun yan, yan kun, kunyan, yankun, quin yim, yim quin, quinyim, yimquin
+canonical: https://quinyim.github.io/
+description: Kun Yan is a Ph.D. student at School of Telecommunications Engineering, Xidian University. His research interests include 6G networks, blockchain, and Internet of things.
+
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
@@ -18,26 +18,28 @@ enable_hopkins_logo: true
 enable_last_update: false
 
 # Links
-link_type: icon #text/icon
-google_scholar: 
-cv_link: 
-github_link: https://github.com/xinyue0221/
-linkedin: https://www.linkedin.com/in/xinyue-wang-37168a248/
-twitter: https://x.com/fULxY5rT0SJWP2j/
+# link_type: icon #text/icon
+google_scholar: https://scholar.google.com/citations?user=NyUwUmIAAAAJ
+orcid: https://orcid.org/0000-0002-3619-8966
+researchgate: https://www.researchgate.net/profile/Kun-Yan-24
+#twitter: https://twitter.com/Wen_Zhong_
+#cv_link: https://drive.google.com/file/d/1_kWjcUHizGGheXU5_wYcaHc0IKuhtiqT/view?usp=sharing
+github_link: https://github.com/wenzhong23
+#linkedin: https://www.linkedin.com/in/wen-zhong-9a59771a5/
 
 # Images 
-avatar: ./assets/img/xinyuewang_profilephoto.jpg
+avatar: ./assets/img/avatar.png
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnotes
-footnote: © 2023 Xinyue Wang
-footnote_link: https://xinyue.me
+# footnote: © 2023 Quin Yim
+# footnote_link: https://quinyim.github.io/
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: 
+# clustrmaps_id: 
 
 # The following files will be removed from the generated website.
 exclude:
