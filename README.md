@@ -1,1 +1,0 @@
-# quinyim.github.io
