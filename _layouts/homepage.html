@@ -150,11 +150,15 @@
         {% endif %}
 
 
-        {% if site.google_scholar %}
+        <!-- {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
-        {% endif %} 
+        {% endif %}  -->
+
+        {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+        {% endif %}
 
         {% if site.orcid %}
         <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
