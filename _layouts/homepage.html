@@ -105,17 +105,22 @@
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
-        {% if site.affiliation %}
+        <!-- {% if site.affiliation %}
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <br>
+        {% endif %} -->
+        {% if site.affiliation %}
+        <affiliation style="font-size:1.10rem;">{{ site.affiliation }}</affiliation>
         <br>
         {% endif %}
         {% if site.email %}
-        <email>{{ site.email }}</email>
+        <!-- <email>{{ site.email }}</email> -->
+        <email style="font-size:1.10rem;">{{ site.email }}</email>
         {% endif %}
-        {% if site.email2 %}
+        <!-- {% if site.email2 %}
         <br>
         <email>{{ site.email2 }}</email>
-        {% endif %}
+        {% endif %} -->
         
         <br>
         <br>
@@ -129,10 +134,29 @@
 
         {% if site.link_type == 'icon' %}
         <div class="social-icons">
+
+        <!-- {% if site.email %}
+        <a style="margin: 0 0 0 0" href="{{ mailto:kyan@stu.xidian.edu.cn }}">
+          <i class="far fa-envelope"></i>
+        </a>
+        {% endif %} -->
+
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
+        {% endif %}
+
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
+          <i class="ai ai-orcid" style="font-size:1.3rem;"></i>
+        </a>
+        {% endif %}
+
+        {% if site.researchgate %}
+        <a style="margin: 0 5px 0 0" href="{{ site.researchgate }}">
+          <i class="fab fa-researchgate" style="font-size:1.3rem"></i>
+        </a>
         {% endif %}
 
         {% if site.cv_link %}
