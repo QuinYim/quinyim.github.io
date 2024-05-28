@@ -145,21 +145,16 @@
         </a>
         {% endif %} -->
 
+        {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        {% endif %}
 
-        <!-- {% if site.google_scholar %}
+
+        {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
-        {% endif %}  -->
-
-        <li>
-        {% if site.google_scholar %}
-        <a href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar icon-pad-right" style="font-size:1.2rem"></i>
-          "Google Scholar"
-        </a>  
-        {% endif %}
-        </li> 
+        {% endif %} 
 
         {% if site.orcid %}
         <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
