@@ -158,14 +158,18 @@
         {% endif %} -->
 
         {% if site.google_scholar %}
-        <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        <span>Google Scholar</span>
+        <a href="{{ site.google_scholar }}">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem; pointer-events: none;"></i>
+          <span style="pointer-events: auto;">Google Scholar</span>
+        </a>
         {% endif %}
 
         {% if site.orcid %}
         <br>
-        <i class="ai ai-orcid" style="font-size:1.3rem;"></i>
-        <span>ORCID</span>
+        <a href="{{ site.orcid }}">
+          <i class="ai ai-orcid" style="font-size:1.3rem; pointer-events: none;"></i>
+          <span style="pointer-events: auto;">ORCID</span>
+        </a>
         {% endif %}
 
         {% if site.researchgate %}
