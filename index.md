@@ -15,23 +15,12 @@ I am a Ph.D. student in the School of Telecommunications Engineering at [Xidian 
 
 <h2 style="margin: 60px 0px 10px;">Educations</h2>
 
-
 * 2021.08 - 2025.06, Ph.D., School of Telecommunications Engineering, Xidian University.
 * 2019.08 - 2021.08, Master, School of Telecommunications Engineering, Xidian University.
 * 2015.08 - 2019.06, Undergraduate, School of Computer Science and Engineering, Xi'an University of Technology.
-
-<!--
-<strong style="color:#e74d3c; font-weight:600"><strong style="color:#e74d3c; font-weight:600">I am currently on the 2023-2024 academic job market, looking for faculty positions in CS, CSE, ECE, IEOR, etc., related to Artificial Intelligence, Computer Vision, and Machine Learning. Please feel free to contact me if you are interested. I am also happy to give talks on my research in related seminars.</strong></strong>
--->
 
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/teaching.md %}
-
-{% include_relative _includes/talks.md %}
-
 {% include_relative _includes/services.md %}
-
-{% include_relative _includes/contact.md %}
