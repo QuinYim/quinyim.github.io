@@ -3,6 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+<li><strong>[Jun. 2024]</strong> Our paper about communications and networks resources sharing in 6G is accepted to <strong>IEEE Wireless Communications</strong>.</li>
 <li><strong>[Oct. 2023]</strong> Our paper about information sharing in 6G intelligent transportation systems is accepted to <strong>IEEE Internet of Things Journal</strong>.</li>
 <li><strong>[Jan. 2023]</strong> Our paper about information sharing in internet of vehicles is accepted to <strong>IEEE Transactions on Vehicular Technology</strong>.</li>
 
