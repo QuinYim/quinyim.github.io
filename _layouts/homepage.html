@@ -73,7 +73,7 @@
     </div>
     
 
-    <script src="./assets/js/vanilla-back-to-top.min.js"></script>
+    <!-- <script src="./assets/js/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
         backgroundColor: '#fff',
         innerHTML: 'Back to Top',
@@ -90,7 +90,48 @@
           line-height: 30px;
           height: 30px;
         }
+    </style> -->
+
+    <script src="path/to/vanilla-back-to-top.min.js"></script>
+    <script>
+      addBackToTop({
+        backgroundColor: '#fff',
+        innerHTML: 'Back to Top',
+        textColor: '#333',
+        cornerOffset: 15, // Add a little offset from the corner
+        showWhenScrollTopIs: 100, // Show the button when the user scrolls down 100px
+        zIndex: 1000, // Ensure it's on top of other elements
+        fadeInDuration: 300, // Time in ms for the button to fade in
+        fadeOutDuration: 300 // Time in ms for the button to fade out
+      });
+    </script>
+    <style>
+      #back-to-top {
+        border: 1px solid #ccc;
+        border-radius: 5px; /* Slightly rounded corners */
+        font-size: 15px;
+        width: 120px; /* A bit wider for better clickability */
+        text-align: center;
+        line-height: 40px; /* Adjusted for new height */
+        height: 40px; /* Increased height for better visibility */
+        position: fixed;
+        bottom: 20px; /* Adjusted position from the bottom */
+        right: 20px; /* Adjusted position from the right */
+        transition: opacity 0.3s, bottom 0.3s; /* Smooth transition for appearance */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Added subtle shadow */
+      }
+    
+      #back-to-top:hover {
+        background-color: #f0f0f0; /* Change background on hover */
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
     </style>
+
+
+
+
+
+
     
     <div class="wrapper">
       <header>
