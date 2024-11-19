@@ -1,3 +1,11 @@
+<!--
+ * @Author: Quin Yim yankun610@gmail.com
+ * @Date: 2024-08-30 14:48:47
+ * @LastEditors: Quin Yim yankun610@gmail.com
+ * @LastEditTime: 2024-11-19 22:29:31
+ * @FilePath: /quinyim.github.io/_includes/talks.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <h1 id="invited-talks"></h1>
 
 <h2 style="margin: 60px 0px 10px;">Invited Talks</h2>
@@ -30,8 +38,8 @@
   <li>NeurIPS Official Meetups in Beijing, December 2019.</li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Multi-class Incremental Learning.</h4>
+<h4 style="margin:0 10px 0;">Research and Application of Blockchain.</h4>
 
 <ul style="margin:0 0 20px;">
-  <li>Nanyang Technological University, July 2019.</li>
+  <li>Xidian University, June 2022.</li>
 </ul>
