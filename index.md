@@ -19,7 +19,6 @@ I am a Ph.D. student in the School of Telecommunications Engineering at [Xidian 
 * 2019.08 - 2021.08, Master, School of Telecommunications Engineering, Xidian University.
 * 2015.08 - 2019.06, Undergraduate, School of Computer Science and Engineering, Xi'an University of Technology.
 
-{% include_relative _includes/news.md %}
 
 {% include_relative _includes/publications.md %}
 
