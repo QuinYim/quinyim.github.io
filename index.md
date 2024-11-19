@@ -15,9 +15,9 @@ I am a Ph.D. student in the School of Telecommunications Engineering at [Xidian 
 
 <h2 style="margin: 60px 0px 10px;">Educations</h2>
 
-* 2021.08 - 2025.06, Ph.D., School of Telecommunications Engineering, Xidian University.
-* 2019.08 - 2021.08, Master, School of Telecommunications Engineering, Xidian University.
-* 2015.08 - 2019.06, Undergraduate, School of Computer Science and Engineering, Xi'an University of Technology.
+* 2021.08 - 2025.06, Ph.D. in Cryptography, School of Telecommunications Engineering, Xidian University.
+* 2019.08 - 2021.08, M.E. in Information and Communications Engineering, School of Telecommunications Engineering, Xidian University.
+* 2015.08 - 2019.06, B.E. in Internet of Things Engineering, School of Computer Science and Engineering, Xi'an University of Technology.
 
 {% include_relative _includes/news.md %}
 
