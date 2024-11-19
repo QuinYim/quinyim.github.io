@@ -33,7 +33,6 @@ github_link: https://github.com/QuinYim
 
 # Images 
 avatar: ./assets/img/kun.png
-avatar_style: border-radius: 0%;
 favicon: ./assets/img/favicon-dark.png
 favicon_dark: ./assets/img/favicon-dark.png
 
