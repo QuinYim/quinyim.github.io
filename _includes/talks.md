@@ -7,9 +7,3 @@
 <ul style="margin:0 0 20px;">
   <li>School of Telecommunications Engineering, Xidian University, Jun. 2022.</li>
 </ul>
-
-<h4 style="margin:0 10px 0;">How Undergraduates can Participate in Scientific Research？</h4>
-
-<ul style="margin:0 0 20px;">
-  <li>School of Telecommunications Engineering, Xidian University, Nov. 2022.</li>
-</ul>
