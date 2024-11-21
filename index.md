@@ -11,7 +11,7 @@ I am a Ph.D. student in the School of Telecommunications Engineering at [Xidian 
 
 - **6G networks:** distributed network management, resource sharing, security and privacy.
 - **Blockchain:** consensus mechanisms, distributed network applications.
-- **Internet of things:** intelligent transportation systems, distributed security.
+- **Internet of things:** resource management, information sharing, distributed security.
 
 <h2 style="margin: 60px 0px 10px;">Educations</h2>
 
