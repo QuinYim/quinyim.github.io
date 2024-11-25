@@ -12,29 +12,32 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 
 
 .social-icons {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
     margin-top: 1rem;
   }
   
-  .icon-row {
+  .social-icons .icon-row {
     margin-bottom: 0.5rem;
   }
   
-  .icon-row a {
+  .social-icons .icon-row a {
     display: flex;
     align-items: center;
     color: #494e52;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 0.9em;
   }
   
-  .icon-row i {
+  .social-icons .icon-row a i {
+    width: 20px;
     margin-right: 10px;
-    font-size: 1.2em; /* Adjust icon size if needed */
+    text-align: center;
   }
   
-  .icon-row a:hover {
+  .social-icons .icon-row a span {
+    margin-left: 5px;
+  }
+  
+  .social-icons .icon-row a:hover {
     color: #000;
     text-decoration: none;
   }
