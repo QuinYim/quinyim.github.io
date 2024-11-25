@@ -1,7 +1,6 @@
 ---
 layout: homepage
 ---
-
 {% include_relative _includes/biography.md %}
 
 {% include_relative _includes/interests.md %}
@@ -11,6 +10,8 @@ layout: homepage
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/publications.md %}
+
+{% include_relative _includes/awards.md %}
 
 {% include_relative _includes/talks.md %}
 
