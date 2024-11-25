@@ -10,33 +10,34 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 
 // .social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
 
-
 .social-links {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 1em;
-  }
+    font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+    margin-top: 0.5em;
+    
+    a {
+      display: flex;
+      align-items: center;
+      padding: 3px 7px;
+      color: #3170A5;
+      text-decoration: none;
+      font-size: 0.9em;
+      margin-bottom: 5px;
   
-  .social-item {
-    display: flex;
-    align-items: center;
-    color: #494e52;
-    text-decoration: none;
-    font-size: 0.9em;
-  }
+      i {
+        width: 16px;
+        text-align: center;
+        margin-right: 8px;
+      }
   
-  .social-item i {
-    width: 20px;
-    margin-right: 10px;
-  }
+      &:hover {
+        color: #DA2536;
+        text-decoration: none;
+      }
   
-  .social-item:hover {
-    color: #000;
-  }
-  
-  .social-item span {
-    font-size: 1em;
+      span {
+        font-size: 0.95em;
+      }
+    }
   }
 
 
@@ -44,15 +45,15 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 
 .icon-button span { border-radius: 0; display: block; height: 0; left: 50%; margin: 0; position: absolute; top: 50%; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; width: 0; }
 
-.icon-button:hover span { width: 3.6rem; height: 3.6rem; border-radius: 3.6rem; margin: -1.8rem; }
+// .icon-button:hover span { width: 3.6rem; height: 3.6rem; border-radius: 3.6rem; margin: -1.8rem; }
 
-.twitter span { background-color: #4099ff; }
+// .twitter span { background-color: #4099ff; }
 
-.facebook span { background-color: #4286f4; }
+// .facebook span { background-color: #4286f4; }
 
-.linkedin span { background-color: #0077B5; }
+// .linkedin span { background-color: #0077B5; }
 
-.github span { background-color: #000; }
+// .github span { background-color: #000; }
 
 email { font-size: 14px; font-family: "Ubuntu Mono"; }
 
