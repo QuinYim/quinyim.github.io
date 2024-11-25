@@ -3,7 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Aug. 2024]</strong> Our new work about computing sharing in 6G computing power network is submitted to <strong>IEEE Transactions on Wireless Communications</strong> and hope to receive good news.</li>
+<li><strong>[Nov. 2024]</strong> Our new work about computing sharing in 6G computing power network is submitted to <strong>IEEE Transactions on Wireless Communications</strong> and hope to receive good news.</li>
 <li><strong>[Nov. 2024]</strong> I receive the <strong>National Scholarship</strong>.</li>
 <li><strong>[Aug. 2024]</strong> Our paper about spectrum sharing in 6G networks is accepted to <strong>IEEE Wireless Communications</strong>.</li>
 <li><strong>[Jun. 2024]</strong> Our new work about communications and networks resources sharing in 6G is submitted to <strong>IEEE Transactions on Network Science and Engineering</strong> and hope to receive good news.</li>
