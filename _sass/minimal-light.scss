@@ -11,13 +11,13 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 // .social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
 
 .social-links {
-    display: flex;
+    display: block;
     flex-direction: column;
     margin-top: 1em;
   }
   
   .social-links a {
-    display: flex;
+    display: block;
     align-items: center;
     color: #555555;
     text-decoration: none;
