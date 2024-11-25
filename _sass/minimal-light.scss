@@ -11,33 +11,29 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 // .social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
 
 .social-links {
-    font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
-    margin-top: 0.5em;
-    
-    a {
-      display: flex;
-      align-items: center;
-      padding: 3px 7px;
-      color: #3170A5;
-      text-decoration: none;
-      font-size: 0.9em;
-      margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+  }
   
-      i {
-        width: 16px;
-        text-align: center;
-        margin-right: 8px;
-      }
+  .social-links a {
+    display: flex;
+    align-items: center;
+    color: #555555; /* 与academicpages一致的文字颜色 */
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+  }
   
-      &:hover {
-        color: #DA2536;
-        text-decoration: none;
-      }
+  .social-links a:hover {
+    color: #000000; /* 悬停时的文字颜色 */
+  }
   
-      span {
-        font-size: 0.95em;
-      }
-    }
+  .social-links i {
+    margin-right: 0.5em;
+    font-size: 1.2em;
+    width: 1.5em;
+    text-align: center;
   }
 
 
