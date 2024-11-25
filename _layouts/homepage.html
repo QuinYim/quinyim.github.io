@@ -135,73 +135,73 @@
         <div class="social-icons">
 
         {% if site.email %}
-        <a style="margin: 0 5px 0 0" href="mailto:{{ site.email }}">
+        <li><a style="margin: 0 5px 0 0" href="mailto:{{ site.email }}">
           <i class="fa-solid fa-envelope" aria-hidden="true"></i>
           <span>Email</span>
-        </a>
+        </a></li>
         {% endif %}
 
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+        <li><a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="fas fa-graduation-cap" style="font-size:1.2rem"></i>
           <span>Google Scholar</span>
-        </a>  
+        </a></li>  
         {% endif %} 
 
         {% if site.orcid %}
-        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
+        <li><a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
           <i class="ai ai-orcid" style="font-size:1.3rem;"></i>
           <span>ORCID</span>
-        </a>
+        </a></li>
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+        <li><a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
           <span>Curriculum Vitae</span>
-        </a>
+        </a></li>
         {% endif %}
 
         {% if site.researchgate %}
-        <a style="margin: 0 5px 0 0" href="{{ site.researchgate }}">
+        <li><a style="margin: 0 5px 0 0" href="{{ site.researchgate }}">
           <i class="fab fa-researchgate" style="font-size:1.3rem"></i>
           <span>Researchgate</span>
-        </a>
+        </a></li>
         {% endif %}
 
         {% if site.clarivate %}
-        <a style="margin: 0 5px 0 0" href="{{ site.clarivate }}" target="_blank">
+        <li><a style="margin: 0 5px 0 0" href="{{ site.clarivate }}" target="_blank">
           <i class="ai ai-clarivate" style="font-size:1.3rem;"></i>
           <span>Clarivate</span>
-        </a>
+        </a></li>
         {% endif %}
         
         {% if site.scopus %}
-        <a style="margin: 0 5px 0 0" href="{{ site.scopus }}" target="_blank">
+        <li><a style="margin: 0 5px 0 0" href="{{ site.scopus }}" target="_blank">
           <i class="ai ai-scopus" style="font-size:1.3rem;"></i>
           <span>Scopus</span>
-        </a>
+        </a></li>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+        <li><a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
           <i class="fab fa-github"></i>
           <span>GitHub</span>
-        </a>
+        </a></li>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+        <li><a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
           <i class="fab fa-linkedin"></i>
           <span>Linkedin</span>
-        </a>
+        </a></li>
         {% endif %}
 
         {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+        <li><a style="margin: 0 0 0 0" href="{{ site.twitter }}">
           <i class="fab fa-x-twitter"></i>
           <span>X</span>
-        </a>
+        </a></li>
         {% endif %}
         </div>
         {% endif %}
