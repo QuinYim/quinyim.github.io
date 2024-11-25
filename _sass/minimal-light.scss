@@ -4,11 +4,41 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 
 .pub-row { display: flex; align-items: center; }
 
-.social-icons a { display: inline-block; height: 2.4rem; width: 2.4rem; background-color: transparent; color: #002D72 !important; border-radius: 100%; text-align: center; font-size: 1.15rem; line-height: 2.5rem; margin-right: 1rem; }
+// .social-icons a { display: inline-block; height: 2.4rem; width: 2.4rem; background-color: transparent; color: #002D72 !important; border-radius: 100%; text-align: center; font-size: 1.15rem; line-height: 2.5rem; margin-right: 1rem; }
 
-.social-icons a:last-child { margin-right: 0; }
+// .social-icons a:last-child { margin-right: 0; }
 
-.social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
+// .social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
+
+
+.social-icons {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 1rem;
+  }
+  
+  .icon-row {
+    margin-bottom: 0.5rem;
+  }
+  
+  .icon-row a {
+    display: flex;
+    align-items: center;
+    color: #494e52;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .icon-row i {
+    margin-right: 10px;
+    font-size: 1.2em; /* Adjust icon size if needed */
+  }
+  
+  .icon-row a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+
 
 .icon-button { background-color: white; border-radius: 3.6rem; cursor: pointer; display: inline-block; font-size: 2.0rem; height: 3.6rem; line-height: 3.6rem; margin: 0 5px; position: relative; text-align: center; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; width: 3.6rem; }
 
@@ -143,3 +173,7 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+     
