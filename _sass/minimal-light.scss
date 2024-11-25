@@ -11,15 +11,14 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 // .social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
 
 
-.social-icons {
-    margin-top: 1rem;
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 1em;
   }
   
-  .social-icons .icon-row {
-    margin-bottom: 0.5rem;
-  }
-  
-  .social-icons .icon-row a {
+  .social-item {
     display: flex;
     align-items: center;
     color: #494e52;
@@ -27,19 +26,17 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
     font-size: 0.9em;
   }
   
-  .social-icons .icon-row a i {
+  .social-item i {
     width: 20px;
     margin-right: 10px;
-    text-align: center;
   }
   
-  .social-icons .icon-row a span {
-    margin-left: 5px;
-  }
-  
-  .social-icons .icon-row a:hover {
+  .social-item:hover {
     color: #000;
-    text-decoration: none;
+  }
+  
+  .social-item span {
+    font-size: 1em;
   }
 
 
