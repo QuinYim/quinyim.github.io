@@ -7,17 +7,13 @@ layout: homepage
 
 I am a Ph.D. student in the School of Telecommunications Engineering at [Xidian University](https://www.xidian.edu.cn/). I am fortunate to work with and be advised by [Prof. Wenping Ma](https://web.xidian.edu.cn/mawenping/). I am interested in resource management and security privacy in future 6G networks. Specifically, I focus on communication and network resource management and sharing, blockchain-based network management. I also have a strong passion for security and privacy in distributed networks.
 
-<h2 style="margin: 60px 0px 10px;">Research Interests</h2>
+<!-- <h2 style="margin: 60px 0px 10px;">Research Interests</h2>
 
 - **6G networks:** distributed network management, resource sharing, security and privacy.
 - **Blockchain:** consensus mechanisms, distributed network applications.
-- **Internet of things:** resource management, information sharing, distributed security.
+- **Internet of things:** resource management, information sharing, distributed security. -->
 
-<!-- <h2 style="margin: 60px 0px 10px;">Educations</h2>
-
-* Aug. 2021 - Jun. 2025, Ph.D. in Cryptography, School of Telecommunications Engineering, Xidian University.
-* Aug. 2019 - Aug. 2021, M.S. in Information and Communications Engineering, School of Telecommunications Engineering, Xidian University.
-* Aug. 2015 - Jun. 2019 in Internet of Things Engineering, School of Computer Science and Engineering, Xi'an University of Technology. -->
+{% include_relative _includes/interests.md %}
 
 {% include_relative _includes/educations.md %}
 
