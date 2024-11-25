@@ -22,12 +22,11 @@ enable_last_update: true
 # Links
 link_type: icon #text/icon
 google_scholar: https://scholar.google.com/citations?user=NyUwUmIAAAAJ
-orcid: https://orcid.org/0000-0002-3619-8966
+# orcid: https://orcid.org/0000-0002-3619-8966
 researchgate: https://www.researchgate.net/profile/Kun-Yan-24
 # clarivate: https://webofscience.clarivate.cn/wos/author/record/HLX-1711-2023
 # scopus: https://www.scopus.com/authid/detail.uri?authorId=58088423400
 #twitter: https://twitter.com/Wen_Zhong_
-#cv_link: https://drive.google.com/file/d/1_kWjcUHizGGheXU5_wYcaHc0IKuhtiqT/view?usp=sharing
 cv_link: ./assets/mpii_files/CV.pdf
 github_link: https://github.com/QuinYim
 #linkedin: https://www.linkedin.com/in/wen-zhong-9a59771a5/
