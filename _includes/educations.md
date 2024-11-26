@@ -1,11 +1,3 @@
-<!--
- * @Author: Quin Yim yankun610@gmail.com
- * @Date: 2024-11-25 22:04:10
- * @LastEditors: Quin Yim yankun610@gmail.com
- * @LastEditTime: 2024-11-26 10:51:10
- * @FilePath: /quinyim.github.io/_includes/educations.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 <h1 id="educations"></h1>
 
 <h2 style="margin: 60px 0px 10px;">Educations</h2>
