@@ -7,11 +7,14 @@ main:
   - title: "Services"
     url: ./#services
 
-  - title: "Talks"
-    url: ./#invited-talks
+  # - title: "Talks"
+  #   url: ./#invited-talks
 
   #- title: "Teaching"
   #  url: ./#teaching
+
+  - title: "Awards"
+    url: ./#awards
 
   - title: "Publications"
     url: ./#publications

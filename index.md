@@ -13,8 +13,6 @@ layout: homepage
 
 {% include_relative _includes/awards.md %}
 
-{% include_relative _includes/talks.md %}
-
 {% include_relative _includes/services.md %}
 
 {% include_relative _includes/contact.md %}
