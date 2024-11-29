@@ -12,6 +12,13 @@
     </li>
     <li>
         <div style="display: flex; justify-content: space-between;">
+            <span><strong>Excellent Graduate Student</strong></span>
+            <span>Nov. 2024</span>
+        </div>
+        <div>Xidian University</div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
             <span><strong>First Prize Academic Scholarship</strong></span>
             <span>Oct. 2023</span>
         </div>
