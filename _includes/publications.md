@@ -3,6 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=NyUwUmIAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp></h2>
 
 <ul style="margin: 0; padding-left: 0; list-style-position: inside;">
+    <li>Weiwei Wang, Wenping Ma, and <strong>Kun Yan</strong>, "FSPPCFs: a privacy-preserving collaborative filtering recommendation scheme based on fuzzy C-means and Shapley value," in  <em>Complex & Intelligent Systems</em>, vol. 11, p.107, Jan. 2025.doi: 10.1007/S40747-024-01758-9. (IF=5) [<a href="https://link.springer.com/article/10.1007/s40747-024-01758-9">Paper</a>]</li>
     <li><strong>Kun Yan</strong>, Wenping Ma, and Shaohui Sun, "BECS: A Privacy-Preserving Computing Sharing Mechanism in 6G Computing Power Network," in <em>IEEE Transactions on Mobile Computing</em>, Under Review. [<a href="
     https://doi.org/10.48550/arXiv.2412.06196">Paper</a>]</li>
     <li><strong>Kun Yan</strong>, Wenping Ma, Shaohui Sun, and Weiwei Wang, "Blockchain-Based Dynamic Spectrum Sharing for Service-Centric 6G Networks: An Evolutionary Approach," in <em>IEEE Transactions on Network Science and Engineering</em>, Under Review.</li>
