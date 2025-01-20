@@ -10,4 +10,5 @@
   <li><a href="https://ieee-iotj.org"><autocolor>IEEE Internet of Things Journal</autocolor></a></li>
   <li><a href="https://www.comsoc.org/publications/journals/ieee-comml"><autocolor>IEEE Communications Letters</autocolor></a></li>
   <li><a href="https://ctsoc.ieee.org/publications/ieee-consumer-electronics-magazine.html"><autocolor>IEEE Consumer Electronics Magazine</autocolor></a></li>
+  <li><a href="https://link.springer.com/journal/10489"><autocolor>Applied Intelligence</autocolor></a></li>
 </ul>
