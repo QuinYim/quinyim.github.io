@@ -9,7 +9,7 @@
 <ul style="font-size: 0.95em; margin-top 2px; padding-left: 16px;">
   <li>School of Telecommunications Engineering, <strong>Xidian University</strong>.</li>
   <li>Advisor: Prof. Wenping Ma</li>
-  <li>Research Area: 6G networks, Evolutionary algorithm, and Blockchain</li>
+  <li>Research Area: 6G Networks, Blockchain, and Network Security</li>
 </ul>
 
 <div style="display: flex; justify-content: space-between; width: 100%; font-size: 1.05em;">
@@ -19,7 +19,7 @@
 <ul style="font-size: 0.95em; margin-top 2px; padding-left: 16px;">
   <li>School of Telecommunications Engineering, <strong>Xidian University</strong>.</li>
   <li>Advisor: Prof. Ping Zeng</li>
-  <li>Research Area: nternet of Vehicles and Blockchain</li>
+  <li>Research Area: Internet of Vehicles and Blockchain</li>
 </ul>
 
 <div style="display: flex; justify-content: space-between; width: 100%; font-size: 1.05em;">

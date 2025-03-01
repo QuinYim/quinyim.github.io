@@ -3,7 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=NyUwUmIAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp></h2>
 
 <ul style="margin: 0; padding-left: 0; list-style-position: inside;">
-    <li>Weiwei Wang, Wenping Ma, and <strong>Kun Yan</strong>, "Trust-aware privacy-preserving QoS prediction with graph neural collaborative filtering for internet of things services," in  <em>Complex & Intelligent Systems</em>, vol. 11, no.1, p.191, Feb. 2025. (IF=5) [<a href="https://link.springer.com/article/10.1007/s40747-025-01824-w">Paper</a>]</li>
+    <li>Weiwei Wang, Wenping Ma, and <strong>Kun Yan</strong>, "Trust-aware privacy-preserving QoS prediction with graph neural collaborative filtering for internet of things services," in  <em>Complex & Intelligent Systems</em>, vol. 11, p.191, Feb. 2025. (IF=5) [<a href="https://link.springer.com/article/10.1007/s40747-025-01824-w">Paper</a>]</li>
     <li>Weiwei Wang, Wenping Ma, and <strong>Kun Yan</strong>, "FSPPCFs: a privacy-preserving collaborative filtering recommendation scheme based on fuzzy C-means and Shapley value," in  <em>Complex & Intelligent Systems</em>, vol. 11, p.107, Jan. 2025. (IF=5) [<a href="https://link.springer.com/article/10.1007/s40747-024-01758-9">Paper</a>]</li>
     <li><strong>Kun Yan</strong>, Wenping Ma, and Shaohui Sun, "BECS: A Privacy-Preserving Computing Sharing Mechanism in 6G Computing Power Network," in <em>IEEE Transactions on Mobile Computing</em>, Under Review. [<a href="
     https://doi.org/10.48550/arXiv.2412.06196">Paper</a>]</li>
