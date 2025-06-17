@@ -12,8 +12,10 @@
   <li><a href="https://www.comsoc.org/publications/journals/ieee-comml"><autocolor>IEEE Communications Letters</autocolor></a></li>
   <li><a href="https://ctsoc.ieee.org/publications/ieee-consumer-electronics-magazine.html"><autocolor>IEEE Consumer Electronics Magazine</autocolor></a></li>
   <li><a href="https://ieeeaccess.ieee.org/"><autocolor>IEEE Access</autocolor></a></li>
-  <li><a href="https://link.springer.com/journal/10489"><autocolor>Applied Intelligence</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/vehicular-communications"><autocolor>Vehicular Communications</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-network-and-computer-applications"><autocolor>Journal of Network and Computer Applications</autocolor></a></li>
+  <li><a href="https://link.springer.com/journal/10489"><autocolor>Applied Intelligence</autocolor></a></li>
+  <li><a href="https://link.springer.com/journal/40747"><autocolor>Complex & Intelligent Systems</autocolor></a></li>
+  <li><a href="https://journalofcloudcomputing.springeropen.com/"><autocolor>Journal of Cloud Computing: Advances, Systems and Applications</autocolor></a></li>
 </ul>
 
