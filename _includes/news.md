@@ -3,6 +3,8 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul style="margin: 0; padding-left: 0; list-style-position: inside;">
+
+  <li><strong>[Jun. 2025]</strong> I received my Ph.D. degree from the School of Telecommunications Engineering at Xidian University. </li>
   <li><strong>[Apr. 2025]</strong> Our paper about computing sharing in 6G computing power network is submitted to <strong>IEEE Transactions on Network Science and Engineering</strong> and hope to receive good news.</li>
   <li><strong>[Feb. 2025]</strong> Our paper about privacy-protected QoS prediction for IoT services is accepted to <strong>Complex & Intelligent Systems</strong>.</li> 
   <li><strong>[Jan. 2025]</strong> Our paper about collaborative filtering recommendation systems with privacy protection is accepted to <strong>Complex & Intelligent Systems</strong>.</li>
