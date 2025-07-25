@@ -13,6 +13,7 @@
   <li><a href="https://www.comsoc.org/publications/journals/ieee-comml"><autocolor>IEEE Communications Letters</autocolor></a></li>
   <li><a href="https://ctsoc.ieee.org/publications/ieee-consumer-electronics-magazine.html"><autocolor>IEEE Consumer Electronics Magazine</autocolor></a></li>
   <li><a href="https://ieeeaccess.ieee.org/"><autocolor>IEEE Access</autocolor></a></li>
+  <li><a href="https://dl.acm.org/journal/tosn"><autocolor>ACM Transactions on Sensor Networks</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/computer-networks"><autocolor>Computer Networks</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/vehicular-communications"><autocolor>Vehicular Communications</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-network-and-computer-applications"><autocolor>Journal of Network and Computer Applications</autocolor></a></li>
