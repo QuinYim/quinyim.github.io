@@ -1,26 +1,26 @@
 main:
 
-  - title: "Biography"
-    url: ./#biography
-
-  - title: "News"
-    url: ./#news
-
-  - title: "Publications"
-    url: ./#publications
-
-  - title: "Awards"
-    url: ./#awards
-
-  #- title: "Teaching"
-  #  url: ./#teaching
-
-  # - title: "Talks"
-  #   url: ./#invited-talks
+  - title: "Contact"
+    url: ./#contact 
+    right: true 
 
   - title: "Services"
     url: ./#services
 
-  - title: "Contact"
-    url: ./#contact 
-    right: true 
+  # - title: "Talks"
+  #   url: ./#invited-talks
+
+  #- title: "Teaching"
+  #  url: ./#teaching
+
+  - title: "Awards"
+    url: ./#awards
+
+  - title: "Publications"
+    url: ./#publications
+
+  - title: "News"
+    url: ./#news
+
+  - title: "Biography"
+    url: ./#biography
