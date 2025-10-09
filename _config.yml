@@ -41,8 +41,8 @@ favicon_dark: ./assets/img/favicon-dark.png
 auto_dark_mode: true
 
 # Footnotes
-# footnote: Quin Yim.
-# footnote_link: https://quinyim.github.io/
+footnote: © 2025 Kun Yan. All rights reserved.
+footnote_link: https://quinyim.github.io/
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
