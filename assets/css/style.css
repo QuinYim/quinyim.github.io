@@ -144,3 +144,18 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Mobile spacing fix: remove bottom border/spacing under copyright & update */
+@media print, screen and (max-width: 960px) {
+	section {
+		border-bottom: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	footer br {
+		display: none !important;
+	}
+	footer {
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
+	}
+}
