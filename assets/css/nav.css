@@ -20,6 +20,8 @@
     margin-bottom:-16.5pt;
     margin-top:-12.5pt;
     margin-left:30%;
+    max-height: 40px;
+    width: auto;
   }
   
   /* Style the links inside the navigation bar */
@@ -124,19 +126,15 @@
 
    @media print, screen and (max-width: 960px) { 
 
-    .topnav {
-        height: 50px; /* fixed height for mobile */
-      }
-
-    .topnav img {
-        height: 40px; /* limit logo height on mobile */
-        width: auto; /* maintain aspect ratio */
-        margin-top: 5px;
-        margin-bottom: 5px;
-      }
-
     .topnav #myLinks {
         display: none;
+      }
+
+      .topnav img {
+        margin-bottom: -16.5pt;
+        margin-top: -12.5pt;
+        max-height: 40px;
+        width: auto;
       }
 
       .topnav a.normal {
