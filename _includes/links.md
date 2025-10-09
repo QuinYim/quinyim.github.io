@@ -16,6 +16,6 @@
 
 <ul style="margin:0 0 20px;">
 
-  <li><strong>Writing Perfect Papers</strong>, an insightful talk given by Professor Baochun Li. [<a href="https://youtu.be/FxGo5hn8dTw">Video</a>] [<a href="https://iqua.ece.toronto.edu/papers/writing-perfect-papers-2021.pdf" target="_blank" rel="noopener noreferrer">Slide</a>]</li>
+  <li><strong>Writing Perfect Papers</strong>, an insightful talk given by Professor <a href="https://iqua.ece.toronto.edu/bli/" target="_blank" rel="noopener noreferrer"><autocolor>Baochun Li</autocolor></a>. [<a href="https://youtu.be/FxGo5hn8dTw">Video</a>] [<a href="https://iqua.ece.toronto.edu/papers/writing-perfect-papers-2021.pdf" target="_blank" rel="noopener noreferrer">Slide</a>]</li>
 
 </ul>
