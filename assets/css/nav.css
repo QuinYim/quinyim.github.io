@@ -124,17 +124,19 @@
 
    @media print, screen and (max-width: 960px) { 
 
-    .topnav #myLinks {
-        display: none;
+    .topnav {
+        height: 50px; /* fixed height for mobile */
       }
 
-      /* Center the school logo on mobile */
-      .topnav { 
-        text-align: center; 
+    .topnav img {
+        height: 40px; /* limit logo height on mobile */
+        width: auto; /* maintain aspect ratio */
+        margin-top: 5px;
+        margin-bottom: 5px;
       }
-      .topnav img { 
-        margin: 0 auto; 
-        display: inline-block; 
+
+    .topnav #myLinks {
+        display: none;
       }
 
       .topnav a.normal {
