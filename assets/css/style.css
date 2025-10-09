@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
-/* Enable sticky footer with flexbox */
 html { height: 100%; }
 body { 
   background-color: #fff; 
@@ -12,8 +11,6 @@ body {
   font-weight: 400; 
   margin: 0;
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .pub-row { display: flex; align-items: center; }
@@ -139,13 +136,6 @@ section {
   float: right; 
   padding-top: 1.2em; 
   padding-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  min-height: calc(100vh - 2.4em);
-}
-
-.section-content {
-  flex: 1; /* grow to fill available space */
 }
 
 small { font-size: 11px; }
@@ -164,9 +154,6 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
     border-width: 1px 0; 
     padding: 20px; 
     margin: 0 0 20px;
-    display: flex;
-    flex-direction: column;
-    min-height: calc(100vh - 100px);
   } 
   header a small { display: inline; } 
   header ul { position: absolute; right: 50px; top: 52px; } 
@@ -200,27 +187,42 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 	line-height: 1.4;
 }
 
-/* Desktop: position at page bottom center (full viewport width) */
+/* Desktop: use flexbox to push to bottom, grows with content */
 @media print, screen and (min-width: 961px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+	.wrapper {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
 	#bottom-meta {
-		position: fixed;
-		bottom: 20px;
-		left: 0;
-		right: 0;
+		position: relative;
 		width: 100%;
 		text-align: center;
-		z-index: 5;
-		pointer-events: none; /* allow clicks through */
-	}
-	#bottom-meta a {
-		pointer-events: auto; /* re-enable clicks on links */
+		margin-top: auto;
+		padding: 20px 0;
 	}
 }
 
-/* Mobile: keep in normal flow within section */
+/* Mobile: keep in normal flow, also use flexbox for sticky footer */
 @media print, screen and (max-width: 960px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+	.wrapper {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
 	#bottom-meta {
-		position: static;
-		margin-top: 2rem;
+		position: relative;
+		margin-top: auto;
+		padding: 20px 0;
 	}
 }
