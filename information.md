@@ -11,9 +11,3 @@ permalink: /information/
 {% include_relative _includes/awards.md %}
 
 {% include_relative _includes/news.md %}
-
-{% include_relative _includes/news.md %}
-
-{% include_relative _includes/news.md %}
-
-{% include_relative _includes/news.md %}
