@@ -128,6 +128,15 @@
         display: none;
       }
 
+      /* Center the school logo on mobile */
+      .topnav { 
+        text-align: center; 
+      }
+      .topnav img { 
+        margin: 0 auto; 
+        display: inline-block; 
+      }
+
       .topnav a.normal {
         color: white;
         float: none;
