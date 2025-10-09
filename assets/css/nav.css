@@ -20,8 +20,6 @@
     margin-bottom:-16.5pt;
     margin-top:-12.5pt;
     margin-left:30%;
-    max-height: 40px;
-    width: auto;
   }
   
   /* Style the links inside the navigation bar */
@@ -131,9 +129,11 @@
       }
 
       .topnav img {
-        margin-bottom: -16.5pt;
-        margin-top: -12.5pt;
-        max-height: 40px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 8px;
+        margin-bottom: 8px;
+        height: 28px;
         width: auto;
       }
 
