@@ -16,8 +16,6 @@ description: Kun Yan received his Ph.D. degree from the School of Telecommunicat
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
 
-# The option is used to show the last update time.
-enable_last_update: true
 
 # Links
 link_type: icon #text/icon
@@ -40,9 +38,12 @@ favicon_dark: ./assets/img/favicon-dark.png
 # You may use the option to disable the automatic dark theme
 auto_dark_mode: true
 
+# The option is used to show the last update time.
+enable_last_update: true
+
 # Footnotes
 footnote: © 2025 Kun Yan. All rights reserved.
-footnote_link: https://quinyim.github.io/
+# footnote_link: https://quinyim.github.io/
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
