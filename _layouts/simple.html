@@ -121,16 +121,21 @@
 
       <br>
 
+      {% if site.footnote %}
+      <div style="font: 12px/1.2 Crimson Pro, serif">
+        <a {% if site.footnote_link %}href="{{ site.footnote_link }}" rel="noopener"{% endif %}>{{ site.footnote }}</a>
+      </div>
+      {% endif %}
+
       {% if site.enable_last_update %}
       <small>Last Update:
             <script>
-              const monthNames = ["January", "Februray", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
-              ];
+              const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
               var modiDate = new Date(document.lastModified);
               var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
               document.write(showAs);
             </script>
-      </small> 
+      </small>
       {% endif %}
 
       <br>
