@@ -11,7 +11,7 @@ body {
   color: #595959; 
   font-weight: 400; 
   margin: 0;
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -94,7 +94,11 @@ a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 
 a:hover small { color: #777; }
 
-.wrapper { width: 960px; margin: 0 auto; }
+.wrapper { 
+  width: 960px; 
+  margin: 0 auto; 
+  flex: 1 0 auto; /* allow wrapper to grow and push bottom-meta down */
+}
 
 blockquote { border-left: 1px solid #e5e5e5; margin: 0; padding: 0 0 0 20px; font-style: italic; }
 
@@ -139,13 +143,6 @@ section {
   float: right; 
   padding-top: 1.2em; 
   padding-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  min-height: calc(100vh - 2.4em);
-}
-
-.section-content {
-  flex: 1; /* grow to fill available space */
 }
 
 small { font-size: 11px; }
@@ -187,40 +184,17 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 
 /*# sourceMappingURL=style.css.map */
 
-/* Bottom meta (footnote + last update) - sticky footer style */
+/* Bottom meta (footnote + last update) - sticky footer in normal flow */
 #bottom-meta {
 	color: #595959;
 	text-align: center;
-	padding: 1rem 0;
+	padding: 1.5rem 0;
+	margin-top: auto; /* push to bottom when body is flex container */
+	flex-shrink: 0; /* prevent shrinking */
 }
 #bottom-meta a { color: #595959; }
 #bottom-meta small { color: #595959; }
 #bottom-meta .footnote-line,
 #bottom-meta .last-update-line {
 	line-height: 1.4;
-}
-
-/* Desktop: position at page bottom center (full viewport width) */
-@media print, screen and (min-width: 961px) {
-	#bottom-meta {
-		position: fixed;
-		bottom: 20px;
-		left: 0;
-		right: 0;
-		width: 100%;
-		text-align: center;
-		z-index: 5;
-		pointer-events: none; /* allow clicks through */
-	}
-	#bottom-meta a {
-		pointer-events: auto; /* re-enable clicks on links */
-	}
-}
-
-/* Mobile: keep in normal flow within section */
-@media print, screen and (max-width: 960px) {
-	#bottom-meta {
-		position: static;
-		margin-top: 2rem;
-	}
 }
