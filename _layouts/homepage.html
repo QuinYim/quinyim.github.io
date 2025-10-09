@@ -229,22 +229,30 @@
 
       <br>
 
-      {% if site.footnote %}
-      <div class="footer-footnote" style="font: 12px/1.2 Crimson Pro, serif">
-        <a {% if site.footnote_link %}href="{{ site.footnote_link }}" rel="noopener"{% endif %}>{{ site.footnote }}</a>
-      </div>
-      {% endif %}
+      <div id="bottom-meta">
+        {% if site.footnote %}
+        <div class="footnote-line" style="font: 12px/1.2 Crimson Pro, serif">
+          {% if site.footnote_link %}
+            <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>
+          {% else %}
+            {{ site.footnote }}
+          {% endif %}
+        </div>
+        {% endif %}
 
-      {% if site.enable_last_update %}
-      <small>Last Update:
+        {% if site.enable_last_update %}
+        <div class="last-update-line">
+          <small>Last Update:
             <script>
               const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
               var modiDate = new Date(document.lastModified);
               var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
               document.write(showAs);
             </script>
-      </small>
-      {% endif %}
+          </small>
+        </div>
+        {% endif %}
+      </div>
 
       <br>
       {% if site.clustrmaps_id %}

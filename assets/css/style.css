@@ -143,12 +143,6 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
-/* Ensure footer footnote color matches Last Update and body text */
-.footer-footnote,
-.footer-footnote a {
-	color: #595959 !important;
-}
-
 /*# sourceMappingURL=style.css.map */
 
 /* Mobile spacing fix: remove bottom border/spacing under copyright & update */
@@ -163,5 +157,31 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 	footer {
 		margin-bottom: 0 !important;
 		padding-bottom: 0 !important;
+	}
+}
+
+/* Bottom meta (footnote + last update) */
+#bottom-meta {
+	color: #595959; /* unify color with body text */
+}
+#bottom-meta a { color: #595959; }
+#bottom-meta small { color: #595959; }
+
+/* Desktop: stick to bottom center */
+@media print, screen and (min-width: 961px) {
+	#bottom-meta {
+		position: fixed;
+		bottom: 12px;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		background: transparent;
+		padding: 0.2rem 0.6rem;
+		border-radius: 6px;
+		z-index: 10;
+	}
+	#bottom-meta .footnote-line,
+	#bottom-meta .last-update-line {
+		line-height: 1.2;
 	}
 }
