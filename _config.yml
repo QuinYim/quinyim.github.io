@@ -31,8 +31,8 @@ github_link: https://github.com/QuinYim
 
 # Images 
 avatar: ./assets/img/kun.png
-favicon: ./assets/img/favicon-dark.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon: ./assets/img/favicon.ico
+favicon_dark: ./assets/img/favicon.ico
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
