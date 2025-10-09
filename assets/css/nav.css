@@ -5,6 +5,7 @@
 	  position:fixed;
 	  z-index:999;
     width:100%;
+    padding: 5px 0;
   }
 
 
@@ -18,7 +19,7 @@
 
   .topnav img {
     margin-bottom:-16.5pt;
-    margin-top:-12.5pt;
+    margin-top:-12.5pt;s
     margin-left:30%;
   }
   
