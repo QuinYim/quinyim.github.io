@@ -1,5 +1,7 @@
 ---
-layout: homepage
+layout: default
+title: Information
+permalink: /information/
 ---
 
 <h1 id="information"></h1>
