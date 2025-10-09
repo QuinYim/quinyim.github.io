@@ -9,5 +9,3 @@ permalink: /information/
 {% include_relative _includes/educations.md %}
 
 {% include_relative _includes/awards.md %}
-
-{% include_relative _includes/contact.md %}
