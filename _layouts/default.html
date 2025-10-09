@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ page.title }} | {{ site.title }} | {{ site.affiliation }}</title>
+  <title>{{ page.title | default: site.title }} | {{ site.title }} | {{ site.affiliation }}</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -20,18 +20,21 @@
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image" content="{{ site.avatar }}">
 
-    <link rel="canonical" href="{{ site.canonical }}{{ page.permalink }}"/>
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/pub.css">
-    <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="canonical" href="{{ site.canonical }}{{ page.url }}"/>
+  <!-- Harmonized favicon strategy (light/dark) -->
+  <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark | relative_url }}" type="image/png" />
+  <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon | relative_url }}" type="image/png" />
+  <!-- Optional: single fallback -->
+  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/png" />
+  <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/pub.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/nav.css' | relative_url }}">
     
-    <script src="./assets/js/github-stars.js"></script>
-    <script type="text/javascript" src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+  <script src="{{ '/assets/js/github-stars.js' | relative_url }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}" type="application/javascript"></script>
     
     <script type="text/javascript">
       function toggle_vis(id) {
@@ -71,7 +74,7 @@
     
     <div class="topnav">
 
-      <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo }}"></a>
+  <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo | relative_url }}"></a>
 
       <div id="myLinks">
       {% include navigation.md %}
@@ -84,7 +87,7 @@
     </div>
     
 
-    <script src="./assets/js/vanilla-back-to-top.min.js"></script>
+  <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url }}"></script>
     <script>addBackToTop({
         backgroundColor: '#fff',
         innerHTML: 'Back to Top',
@@ -116,17 +119,22 @@
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>University of Illinois<br>Urbana-Champaign</autocolor></a>
-        <br>
-        {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
-        {% endif %}
-        {% if site.email2 %}
-        <br>
-        <email>{{ site.email2 }}</email>
-        {% endif %}
+  {% if site.department %}
+  <affiliation style="font-size:1.10rem;">{{ site.department }}</affiliation>
+  <br>
+  {% endif %}
+  {% if site.affiliation %}
+  <affiliation style="font-size:1.10rem;">{{ site.affiliation }}</affiliation>
+  <br>
+  {% endif %}
+  {% if site.location %}
+  <location style="font-size:1.10rem;">{{ site.location }}</location>
+  <br>
+  {% endif %}
+  {% if site.email %}
+  <email>{{ site.email }}</email>
+  <br>
+  {% endif %}
         
         <br>
         <br>
@@ -140,32 +148,53 @@
 
         {% if site.link_type == 'icon' %}
         <div class="social-icons">
+        {% if site.email %}
+        <a style="margin: 0 5px 0 0" href="mailto:{{ site.email }}">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        </a>
+        {% endif %}
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-graduation-cap" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
-
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer">
+          <i class="ai ai-orcid" style="font-size:1.3rem;"></i>
+        </a>
+        {% endif %}
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" target="_blank" rel="noopener noreferrer">
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
         {% endif %}
-
+        {% if site.researchgate %}
+        <a style="margin: 0 5px 0 0" href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-researchgate" style="font-size:1.3rem"></i>
+        </a>
+        {% endif %}
+        {% if site.clarivate %}
+        <a style="margin: 0 5px 0 0" href="{{ site.clarivate }}" target="_blank" rel="noopener noreferrer">
+          <i class="ai ai-clarivate" style="font-size:1.3rem;"></i>
+        </a>
+        {% endif %}
+        {% if site.scopus %}
+        <a style="margin: 0 5px 0 0" href="{{ site.scopus }}" target="_blank" rel="noopener noreferrer">
+          <i class="ai ai-scopus" style="font-size:1.3rem;"></i>
+        </a>
+        {% endif %}
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-github"></i>
         </a>
         {% endif %}
-
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-linkedin"></i>
         </a>
         {% endif %}
-
         {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+        <a style="margin: 0 0 0 0" href="{{ site.twitter }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
