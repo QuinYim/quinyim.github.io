@@ -90,19 +90,30 @@
   <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url }}"></script>
     <script>addBackToTop({
         backgroundColor: '#fff',
-        innerHTML: 'Back to Top',
+        innerHTML: '<svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M9.33468 16.6667C9.33468 17.0338 9.6326 17.3315 9.99972 17.3317C10.367 17.3317 10.6648 17.0339 10.6648 16.6667V4.93906L15.363 9.63741L15.4675 9.72226C15.7255 9.89259 16.0762 9.86428 16.3034 9.63741C16.5631 9.37768 16.5631 8.95565 16.3034 8.69598L10.4704 2.86299C10.2108 2.60333 9.7897 2.60343 9.52999 2.86299L3.69601 8.69598L3.61105 8.80047C3.44054 9.05859 3.46874 9.41009 3.69601 9.63741C3.92328 9.86457 4.27479 9.89276 4.53292 9.72226L4.63741 9.63741L9.33468 4.94008V16.6667Z"></path></svg>',
         textColor: '#333'
       })
     </script>
     <style>
         #back-to-top {
           border: 1px solid #ccc;
-          border-radius: 0;
-          font-size: 15px;
-          width: 100px;
-          text-align: center;
-          line-height: 30px;
-          height: 30px;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+          transition: all 0.3s ease;
+        }
+        #back-to-top:hover {
+          background-color: #f5f5f5;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        #back-to-top svg {
+          display: block;
+          margin: 0;
         }
     </style>
     
