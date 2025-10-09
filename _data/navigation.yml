@@ -7,14 +7,17 @@ main:
   - title: "Services"
     url: services/
 
-  - title: "Talks"
-    url: talks/
+  # - title: "Talks"
+  #   url: talks/
 
   #- title: "Teaching"
   #  url: ./teaching.html
 
   - title: "Publications"
     url: publications/
+
+    - title: "Information"
+    url: information/
 
   - title: "Home"
     url: ./
