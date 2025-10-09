@@ -24,4 +24,4 @@ main:
     url: information/
 
   - title: "Home"
-    url: ./
+    url: /
