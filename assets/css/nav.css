@@ -131,10 +131,8 @@
       .topnav img {
         margin-left: 50%;
         transform: translateX(-50%);
-        margin-top: 8px;
-        margin-bottom: 8px;
-        height: 28px;
-        width: auto;
+        margin-top: -12.5pt;
+        margin-bottom: -16.5pt;
       }
 
       .topnav a.normal {
