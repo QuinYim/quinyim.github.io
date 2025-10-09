@@ -9,3 +9,5 @@ layout: homepage
 {% include_relative _includes/interests.md %}
 
 {% include_relative _includes/news.md %}
+
+{% include_relative _includes/contact.md %}
