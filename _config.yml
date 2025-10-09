@@ -8,16 +8,17 @@ affiliation_logo: ./assets/img/xidian.svg #./assets/img/university-logo-small-ho
 location: Xi'an, China
 email: kyan@stu.xidian.edu.cn
 
+
 # Search Engine Optimization (SEO)
 keywords: kun yan, yan kun, kunyan, yankun, quin yim, yim quin, quinyim, yimquin
 canonical: https://quinyim.github.io/
 description: Kun Yan received his Ph.D. degree from the School of Telecommunications Engineering, Xidian University. His research interests include 6G networks, blockchain, and Internet of things.
 
-# The option is used to enable the Johns Hopkins template.
+# The option is used to enable the Illinois template.
 enable_hopkins_logo: true
 
 # The option is used to show the last update time.
-enable_last_update: true
+enable_last_update: false
 
 # Links
 link_type: icon #text/icon
@@ -37,10 +38,6 @@ avatar: ./assets/img/kun.png
 favicon: ./assets/img/favicon-dark.png
 favicon_dark: ./assets/img/favicon-dark.png
 
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
-
 # Footnotes
 # footnote: Quin Yim.
 # footnote_link: https://quinyim.github.io/
@@ -48,7 +45,7 @@ auto_dark_mode: true
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-#clustrmaps_id: 
+# clustrmaps_id: 
 
 # The following files will be removed from the generated website.
 exclude:
