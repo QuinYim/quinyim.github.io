@@ -144,32 +144,3 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
 /*# sourceMappingURL=style.css.map */
-/* ================= Custom avatar override: make avatar square ================= */
-/* Remove circular style and enforce square cropping */
-.image.avatar, .image.avatar img { border-radius: 0 !important; }
-
-/* Base desktop size */
-.image.avatar img { 
-	width: 160px !important; 
-	height: 160px !important; 
-	padding: 0 !important; 
-	object-fit: cover; /* Ensures aspect fill while keeping square */
-	display: block;
-	margin: 0 auto 10px auto;
-}
-
-/* Medium screens */
-@media print, screen and (max-width: 960px) { 
-	.image.avatar img { 
-		width: 130px !important; 
-		height: 130px !important; 
-	}
-}
-
-/* Small screens */
-@media print, screen and (max-width: 480px) { 
-	.image.avatar img { 
-		width: 110px !important; 
-		height: 110px !important; 
-	}
-}
