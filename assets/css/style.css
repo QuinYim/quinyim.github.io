@@ -143,6 +143,12 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
+/* Ensure footer footnote color matches Last Update and body text */
+.footer-footnote,
+.footer-footnote a {
+	color: #595959 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /* Mobile spacing fix: remove bottom border/spacing under copyright & update */
