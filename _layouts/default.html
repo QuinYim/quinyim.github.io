@@ -14,11 +14,11 @@
     <meta property="og:site_name" content="{{ site.title }} | {{ site.affiliation }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:locale" content="default">
-    <meta property="og:image" content="{{ site.avatar }}">
+  <meta property="og:image" content="{{ site.avatar | relative_url }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ site.title }} | {{ site.affiliation }}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="{{ site.avatar }}">
+  <meta name="twitter:image" content="{{ site.avatar | relative_url }}">
 
   <link rel="canonical" href="{{ site.canonical }}{{ page.url }}"/>
   <!-- Harmonized favicon strategy (light/dark) -->
@@ -109,8 +109,8 @@
     <div class="wrapper">
       <header>
         
-        {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+  {% if site.avatar %}
+  <a class="image avatar"><img src="{{ site.avatar | relative_url }}" alt="avatar" /></a>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
