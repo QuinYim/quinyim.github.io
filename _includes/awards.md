@@ -1,5 +1,3 @@
-<h1 id="awards"></h1>
-
 <h2 style="margin: 60px 0px 10px;">Awards and Honors</h2>
 
 <ul style="list-style-type: disc; padding-left: 20px; margin: 0 0 20px;">
