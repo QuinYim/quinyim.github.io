@@ -120,31 +120,6 @@
       <div class="section-content">
       {{ content }}
       </div>
-
-      <div id="bottom-meta">
-        {% if site.footnote %}
-        <div class="footnote-line" style="font: 12px/1.2 Crimson Pro, serif">
-          {% if site.footnote_link %}
-            <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>
-          {% else %}
-            {{ site.footnote }}
-          {% endif %}
-        </div>
-        {% endif %}
-
-        {% if site.enable_last_update %}
-        <div class="last-update-line">
-          <small>Last Update:
-            <script>
-              const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-              var modiDate = new Date(document.lastModified);
-              var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
-              document.write(showAs);
-            </script>
-          </small>
-        </div>
-        {% endif %}
-      </div>
       
       </section>
       <footer>
@@ -164,6 +139,32 @@
         <br>
       </footer>
     </div>
+
+    <div id="bottom-meta">
+      {% if site.footnote %}
+      <div class="footnote-line" style="font: 12px/1.2 Crimson Pro, serif">
+        {% if site.footnote_link %}
+          <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>
+        {% else %}
+          {{ site.footnote }}
+        {% endif %}
+      </div>
+      {% endif %}
+
+      {% if site.enable_last_update %}
+      <div class="last-update-line">
+        <small>Last Update:
+          <script>
+            const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            var modiDate = new Date(document.lastModified);
+            var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
+            document.write(showAs);
+          </script>
+        </small>
+      </div>
+      {% endif %}
+    </div>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
