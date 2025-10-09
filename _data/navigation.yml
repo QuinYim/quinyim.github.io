@@ -1,20 +1,26 @@
 main:
 
-  - title: "Teaching"
-    url: teaching/
+  - title: "Contact"
+    url: ./#contact 
     right: true 
 
   - title: "Services"
-    url: services/
+    url: ./#services
 
-  - title: "Talks"
-    url: talks/
+  # - title: "Talks"
+  #   url: ./#invited-talks
 
   #- title: "Teaching"
-  #  url: ./teaching.html
+  #  url: ./#teaching
+
+  - title: "Awards"
+    url: ./#awards
 
   - title: "Publications"
-    url: publications/
+    url: ./#publications
 
-  - title: "Home"
-    url: ./
+  - title: "News"
+    url: ./#news
+
+  - title: "Biography"
+    url: ./#biography

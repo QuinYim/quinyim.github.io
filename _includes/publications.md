@@ -1,56 +1,14 @@
 <h1 id="publications"></h1>
 
-<h2 style="margin: 60px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=Qi2PSmEAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://dblp.org/pid/12/10033-1.html" target="_blank" style="font-size:15px;">DBLP</a><temp style="font-size:15px;">]</temp></h2>
+<h2 style="margin: 60px 0px 10px;">Publications <temp style="font-size:15px;">[Copyrights are held by the respective publishers]</temp></h2>
 
-
-<div class="publications">
-<ol class="bibliography">
-
-{% for link in site.data.publications.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-            <abbr class="badge">{{ link.conference_short }}</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.data %} 
-      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c; font-weight:600">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
-</div>
-</li>
-
-<br>
-
-{% endfor %}
-
-</ol>
-</div>
-
-
+<ul style="margin: 0; padding-left: 0; list-style-position: inside;">
+    <li><strong>Kun Yan</strong>, Wenping Ma, and Shaohui Sun, "BECS: A Privacy-Preserving Computing Resource Sharing Mechanism in 6G Computing Power Network," in <em>IEEE Transactions on Network Science and Engineering</em>, Revise. [<a href="https://doi.org/10.48550/arXiv.2412.06196" target="_blank" rel="noopener noreferrer">Link</a>] [<a href="./assets/files/BECS A Privacy-Preserving Computing Resource Sharing Mechanism in 6G Computing Power Network.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</li>
+    <li><strong>Kun Yan</strong>, Wenping Ma, Shaohui Sun, and Weiwei Wang, "Blockchain-Based Dynamic Spectrum Sharing for Service-Centric 6G Networks: An Evolutionary Approach," in <em>IEEE Transactions on Network Science and Engineering</em>, Early Access. (IF=7.9) [<a href="https://doi.org/10.1109/TNSE.2025.3584796" target="_blank" rel="noopener noreferrer">Link</a>] [<a href="./assets/files/Blockchain-Based Dynamic Spectrum Sharing for Service-Centric 6G Networks An Evolutionary Approach.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</li>
+    <li>Weiwei Wang, Wenping Ma, and <strong>Kun Yan</strong>, "TEPP: A Robust Trust-Enhanced Privacy-Preserving Quality of Service Prediction Method for Web Service Recommendation," in  <em>Expert Systems With Applications</em>, Volume 294, p. 128786, Dec. 2025. (IF=7.5) [<a href="https://doi.org/10.1016/j.eswa.2025.128786" target="_blank" rel="noopener noreferrer">Link</a>] [<a href="./assets/files/TEPP A Robust Trust-Enhanced Privacy-Preserving Quality of Service Prediction Method for Web Service Recommendation.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</li>
+    <li>Weiwei Wang, Wenping Ma, and <strong>Kun Yan</strong>, "Trust-aware privacy-preserving QoS prediction with graph neural collaborative filtering for internet of things services," in  <em>Complex & Intelligent Systems</em>, vol. 11, p.191, Feb. 2025. (IF=5) [<a href="https://doi.org/10.1007/s40747-025-01824-w" target="_blank" rel="noopener noreferrer">Link</a>] [<a href="./assets/files/Trust-aware privacy-preserving QoS prediction with graph neural collaborative filtering for internet of things service.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</li>
+    <li>Weiwei Wang, Wenping Ma, and <strong>Kun Yan</strong>, "FSPPCFs: a privacy-preserving collaborative filtering recommendation scheme based on fuzzy C-means and Shapley value," in  <em>Complex & Intelligent Systems</em>, vol. 11, p.107, Dec. 2024. (IF=5) [<a href="https://doi.org/10.1007/S40747-024-01758-9" target="_blank" rel="noopener noreferrer">Link</a>] [<a href="./assets/files/FSPPCFs a privacy-preserving collaborative filtering recommendation scheme based on fuzzy C-means and Shapley value.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</li>
+    <li><strong>Kun Yan</strong>, Wenping Ma, and Shaohui Sun, "Communications and Networks Resources Sharing in 6G: Challenges, Architecture, and Opportunities," in  <em>IEEE Wireless Communications</em>, vol. 31, no. 6, pp. 102-109, Dec. 2024. (IF=10.9) [<a href="https://doi.org/10.1109/MWC.003.2400038" target="_blank" rel="noopener noreferrer">Link</a>] [<a href="./assets/files/Communications and Networks Resources Sharing in 6G Challenges, Architecture, and Opportunities.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</li>
+    <li><strong>Kun Yan</strong>, Wenping Ma, Qi Yang, Shaohui Sun, and Weiwei Wang, "Info-Chain: Reputation-Based Blockchain for Secure Information Sharing in 6G Intelligent Transportation Systems," in  <em>IEEE Internet of Things Journal</em>, vol. 11, no. 5, pp. 9198-9212, Mar. 2024. (IF=10.6) [<a href="https://doi.org/10.1109/JIOT.2023.3323011" target="_blank" rel="noopener noreferrer">Link</a>] [<a href="./assets/files/Info-Chain Reputation-Based Blockchain for Secure Information Sharing in 6G Intelligent Transportation Systems.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</li>
+    <li><strong>Kun Yan</strong>, Ping Zeng, Kan Wang, Wenping Ma, Geng Zhao, and Yingjie Ma, "Reputation Consensus-Based Scheme for Information Sharing in Internet of Vehicles," in  <em>IEEE Transactions on Vehicular Technology</em>, vol. 72, no. 10, pp. 13631-13636, Oct. 2023. (IF=6.8) [<a href="https://doi.org/10.1109/TVT.2023.3237215" target="_blank" rel="noopener noreferrer">Link</a>] [<a href="./assets/files/Reputation Consensus-Based Scheme for Information Sharing in Internet of Vehicles.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</li>
+</ul>

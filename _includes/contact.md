@@ -1,9 +1,8 @@
+<h1 id="contact"></h1>
+
 <h2 style="margin: 60px 0px 10px;">Contact</h2>
 
-614 E. Daniel St. MC-314
+<p><strong>Address:</strong>  No. 2 South Taibai Road, Xi’an, Shaanxi, China
 <br />
-Champaign, IL 61820-7999
+<strong>Office Location:</strong> Main Buliding I-315
 <br />
-Phone: <a href="tel:+12173000910">217-300-0910</a>
-<br />
-Office: <a href="https://maps.app.goo.gl/xvHRWG27wSZXQ1Cv7">5125</a>
