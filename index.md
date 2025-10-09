@@ -14,8 +14,10 @@ I received my Ph.D. degree from the School of Telecommunications Engineering at 
 
 {% include_relative _includes/interests.md %}
 
+{% include_relative _includes/news.md %}
+
 {% include_relative _includes/educations.md %}
 
-{% include_relative _includes/news.md %}
+{% include_relative _includes/awards.md %}
 
 {% include_relative _includes/contact.md %}
