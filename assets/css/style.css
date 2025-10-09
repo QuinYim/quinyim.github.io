@@ -160,38 +160,16 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 	}
 }
 
-/* Bottom meta (footnote + last update) */
+/* Bottom meta (footnote + last update) - center in normal flow */
 #bottom-meta {
 	color: #595959; /* unify color with body text */
+	text-align: center;
+	margin-top: 0.5rem;
+	padding: 0.2rem 0.6rem;
 }
 #bottom-meta a { color: #595959; }
 #bottom-meta small { color: #595959; }
-
-/* Desktop: stick to bottom center */
-@media print, screen and (min-width: 961px) {
-	#bottom-meta {
-		position: fixed;
-		bottom: 12px;
-		left: 50%;
-		transform: translateX(-50%);
-		text-align: center;
-		background: transparent;
-		padding: 0.2rem 0.6rem;
-		border-radius: 6px;
-		z-index: 10;
-	}
-	#bottom-meta .footnote-line,
-	#bottom-meta .last-update-line {
-		line-height: 1.2;
-	}
-}
-
-/* Mobile: keep bottom-meta in normal flow (no fixed), so it appears after content */
-@media print, screen and (max-width: 960px) {
-	#bottom-meta {
-		position: static;
-		transform: none;
-		text-align: left; /* inherit typical flow; adjust if you prefer center */
-		padding: 0;
-	}
+#bottom-meta .footnote-line,
+#bottom-meta .last-update-line {
+	line-height: 1.2;
 }
