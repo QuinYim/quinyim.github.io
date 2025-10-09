@@ -185,3 +185,19 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 		line-height: 1.2;
 	}
 }
+
+/* Mobile: also fix to bottom center and reserve space to prevent overlap */
+@media print, screen and (max-width: 960px) {
+	#bottom-meta {
+		position: fixed;
+		bottom: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		background: transparent;
+		padding: 0.2rem 0.6rem;
+		border-radius: 6px;
+		z-index: 10;
+	}
+	body { padding-bottom: 60px; }
+}
