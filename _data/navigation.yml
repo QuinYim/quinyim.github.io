@@ -4,9 +4,12 @@ main:
   #   url: teaching/
   #   right: true 
 
+  - title: "Links"
+    url: links/
+    right: true 
+
   - title: "Services"
     url: services/
-    right: true 
 
   # - title: "Talks"
   #   url: talks/
@@ -17,11 +20,11 @@ main:
   - title: "Publications"
     url: publications/
 
-  - title: "Projects"
-    url: projects/
+  # - title: "Projects"
+  #   url: projects/
 
   - title: "Information"
     url: information/
 
   - title: "Home"
-    url: /
+    url: ./
