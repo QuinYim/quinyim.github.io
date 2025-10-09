@@ -53,18 +53,11 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image:before { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; border-radius: 0.35em; content: ''; display: block; height: 100%; left: 0; opacity: 0.5; position: absolute; top: 0; width: 100%; }
 
-.image.avatar { border-radius: 100%; }
+.image.avatar { border-radius: 0; }
 
 .image.avatar:before { display: none; }
 
-.image.avatar img {
-	/* 由圆形改为带圆角的正方形，并放大尺寸 */
-	border-radius: 10px;
-	width: 210px;
-	height: 210px;
-	object-fit: cover; /* 确保非正方形源图也能裁切为正方形 */
-	padding: 10px; /* 减少内边距以获得更大视觉面积 */
-}
+.image.avatar img { border-radius: 6px; width: 80%; padding: 20px; }
 
 #header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
 
@@ -136,11 +129,11 @@ hr { border: 0; background: #e5e5e5; height: 1px; margin: 0 0 20px; }
 
 footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-smoothing: subpixel-antialiased; text-align: center; }
 
-@media print, screen and (max-width: 960px) { .pub-row { display: flex; align-items: center; } div.wrapper { width: auto; margin: 0; } header, section, footer { float: none; position: static; width: auto; } header { padding-top: 80px; } section { border: 1px solid #e5e5e5; border-width: 1px 0; padding: 20px 0; margin: 0 0 20px; } header a small { display: inline; } header ul { position: absolute; right: 50px; top: 52px; } .image.avatar img { border-radius: 10px; width: 170px; height: 170px; padding: 10px; object-fit: cover; } section { padding:20px 20px }}
+@media print, screen and (max-width: 960px) { .pub-row { display: flex; align-items: center; } div.wrapper { width: auto; margin: 0; } header, section, footer { float: none; position: static; width: auto; } header { padding-top: 80px; } section { border: 1px solid #e5e5e5; border-width: 1px 0; padding: 20px 0; margin: 0 0 20px; } header a small { display: inline; } header ul { position: absolute; right: 50px; top: 52px; } .image.avatar img { border-radius: 6px; width: 35%; padding: 20px 20px 20px 20px; } section { padding:20px 20px }}
 
 @media print, screen and (max-width: 960px) { body { word-wrap: break-word; padding: 0px; } .pub-row { display: flex; align-items: center; } pre, code { word-wrap: normal; } }
 
-@media print, screen and (max-width: 480px) { .pub-row { display: block; align-items: center; } body { padding: 0px; } header ul { width: 99%; } header li, header ul li + li + li { width: 33%; } .image.avatar img { border-radius: 10px; width: 140px; height: 140px; padding: 8px; object-fit: cover; } }
+@media print, screen and (max-width: 480px) { .pub-row { display: block; align-items: center; } body { padding: 0px; } header ul { width: 99%; } header li, header ul li + li + li { width: 33%; } .image.avatar img { border-radius: 6px; width: 35%; padding: 20px; } }
 
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
 
