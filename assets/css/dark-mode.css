@@ -1,90 +1,27 @@
-/* assets/css/dark-mode.css */
-
+/* Dark mode (system) — minimal swap: white background ⇄ black text; keep reds and other colors unchanged */
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #e0e0e0;
+  /* Global swap (only background) */
+  html, body { background-color: #000 !important; }
+
+  /* Distill/publication variables swap (only bg/text) */
+  :root {
+    --global-bg-color: #000000;
+    --global-text-color: #ffffff;
   }
 
-  .wrapper {
-    background-color: #121212;
-  }
+  /* Components that explicitly used white/black */
+  .social-icons a:hover { background-color: #000; color: #fff !important; }
+  .icon-button { background-color: #000; }
+  .icon-button i { color: #fff; }
 
-  header, section, footer {
-    background-color: #121212;
-  }
+  /* Navigation: keep red bar; just invert the explicit black hover text to white */
+  .topnav a.normal:hover { color: white; }
 
-  h1, h2, h3, h4, h5, h6 {
-    color: #e0e0e0;
-  }
-
-  a {
-    color: #bb86fc;
-  }
-
-  a:hover {
-    color: #3700b3;
-  }
-
-  pre {
-    background: #1e1e1e;
-    border: 1px solid #333;
-    color: #d4d4d4;
-  }
-
-  blockquote {
-    border-left: 1px solid #444;
-  }
-
-  th, td {
-    border-bottom: 1px solid #444;
-  }
-
-  dt, th {
-    color: #c5c5c5;
-  }
-
-  strong {
-    color: #e0e0e0;
-  }
-
-  .social-icons a {
-    color: #e0e0e0 !important;
-  }
-
-  .social-icons a:hover {
-    background-color: #333;
-    color: #fff !important;
-  }
-
-  #bottom-meta, #bottom-meta a, #bottom-meta small {
-    color: #e0e0e0;
-  }
-
-  .topnav {
-    background-color: #1e1e1e;
-    border-bottom: 1px solid #333;
-  }
-
-  .topnav a, .topnav .icon {
-    color: #e0e0e0;
-  }
-
-  .topnav a:hover {
-    background-color: #333;
-    color: white;
-  }
-
+  /* Back-to-top button: swap to dark bg with light icon/text */
   #back-to-top {
-    background-color: #333 !important;
-    border: 1px solid #555;
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
   }
-
-  #back-to-top svg {
-    fill: #e0e0e0 !important;
-  }
-
-  #back-to-top:hover {
-    background-color: #555 !important;
-  }
+  #back-to-top:hover { background-color: #111 !important; }
 }
