@@ -198,3 +198,28 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 #bottom-meta .last-update-line {
 	line-height: 1.4;
 }
+
+/* Back-to-top button: force fixed light style (no dark mode) */
+#back-to-top {
+  background-color: #fff !important;
+  color: #333 !important; /* controls SVG via currentColor */
+  border: 1px solid #ccc; /* keep consistent border */
+}
+#back-to-top:hover {
+  background-color: #f5f5f5 !important;
+}
+#back-to-top svg {
+  filter: none !important;
+}
+
+/* Even when the user prefers dark scheme, keep the same light styling */
+@media (prefers-color-scheme: dark) {
+  #back-to-top {
+    background-color: #fff !important;
+    color: #333 !important;
+    border-color: #ccc !important;
+  }
+  #back-to-top:hover {
+    background-color: #f5f5f5 !important;
+  }
+}
