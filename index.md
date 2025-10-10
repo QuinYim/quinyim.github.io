@@ -6,6 +6,8 @@ layout: homepage
 
 {% include_relative _includes/biography.md %}
 
+{% include_relative _includes/openings.md %}
+
 {% include_relative _includes/interests.md %}
 
 {% include_relative _includes/news.md %}
