@@ -17,6 +17,7 @@
   <li><a href="https://www.sciencedirect.com/journal/information-sciences" target="_blank" rel="noopener noreferrer"><autocolor>Information Sciences</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/computer-networks" target="_blank" rel="noopener noreferrer"><autocolor>Computer Networks</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/vehicular-communications" target="_blank" rel="noopener noreferrer"><autocolor>Vehicular Communications</autocolor></a></li>
+  <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank" rel="noopener noreferrer"><autocolor>Expert Systems With Applications</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-network-and-computer-applications" target="_blank" rel="noopener noreferrer"><autocolor>Journal of Network and Computer Applications</autocolor></a></li>
   <li><a href="https://link.springer.com/journal/10489" target="_blank" rel="noopener noreferrer"><autocolor>Applied Intelligence</autocolor></a></li>
   <li><a href="https://link.springer.com/journal/40747" target="_blank" rel="noopener noreferrer"><autocolor>Complex & Intelligent Systems</autocolor></a></li>
