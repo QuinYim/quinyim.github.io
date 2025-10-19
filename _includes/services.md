@@ -19,6 +19,7 @@
   <li><a href="https://www.sciencedirect.com/journal/vehicular-communications" target="_blank" rel="noopener noreferrer"><autocolor>Vehicular Communications</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank" rel="noopener noreferrer"><autocolor>Expert Systems With Applications</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-network-and-computer-applications" target="_blank" rel="noopener noreferrer"><autocolor>Journal of Network and Computer Applications</autocolor></a></li>
+    <li><a href="https://link.springer.com/journal/607" target="_blank" rel="noopener noreferrer"><autocolor>Computing</autocolor></a></li>
   <li><a href="https://link.springer.com/journal/10489" target="_blank" rel="noopener noreferrer"><autocolor>Applied Intelligence</autocolor></a></li>
   <li><a href="https://link.springer.com/journal/40747" target="_blank" rel="noopener noreferrer"><autocolor>Complex & Intelligent Systems</autocolor></a></li>
   <li><a href="https://journalofcloudcomputing.springeropen.com/" target="_blank" rel="noopener noreferrer"><autocolor>Journal of Cloud Computing: Advances, Systems and Applications</autocolor></a></li>
