@@ -128,11 +128,15 @@
         display: none;
       }
 
+      .topnav { padding: 8px 0; }
+
       .topnav img {
-        margin-left: 50%;
-        transform: translateX(-50%);
-        margin-top: -12.5pt;
-        margin-bottom: -16.5pt;
+        display: block;
+        margin: 0 auto;
+        transform: none;
+        width: auto;
+        height: auto;
+        max-height: 40px;
       }
 
       .topnav a.normal {
