@@ -124,19 +124,19 @@
 
    @media print, screen and (max-width: 960px) { 
 
+    .topnav { 
+      padding: 8px 0; 
+    }
+
     .topnav #myLinks {
         display: none;
       }
 
-      .topnav { padding: 8px 0; }
-
       .topnav img {
         display: block;
         margin: 0 auto;
-        transform: none;
-        width: auto;
-        height: auto;
         max-height: 40px;
+        height: auto;
       }
 
       .topnav a.normal {
