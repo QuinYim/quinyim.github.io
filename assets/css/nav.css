@@ -5,6 +5,7 @@
 	  position:fixed;
 	  z-index:999;
     width:100%;
+    padding: 8px 0;
   }
 
 
@@ -17,9 +18,12 @@
 }
 
   .topnav img {
-    margin-bottom:-16.5pt;
-    margin-top:-12.5pt;
     margin-left:30%;
+    margin-top:0;
+    margin-bottom:0;
+    display:inline-block;
+    vertical-align:middle;
+    height: 36px;
   }
   
   /* Style the links inside the navigation bar */
