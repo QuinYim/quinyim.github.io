@@ -1,11 +1,10 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #fff;
+    background-color: #A22C28;
     overflow: hidden;
 	  position:fixed;
 	  z-index:999;
     width:100%;
-  padding: 8px 0;
   }
 
 
@@ -18,18 +17,15 @@
 }
 
   .topnav img {
-    display: inline-block;
+    margin-bottom:-16.5pt;
+    margin-top:-12.5pt;
     margin-left:30%;
-    margin-top:0;
-    margin-bottom:0;
-    max-height: 60px;
-    height: auto;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a.normal {
     float: right;
-    color: #595959;
+    color: #f2f2f2;
     text-align: center;
     padding: 10px 9px;
     text-decoration: none;
@@ -128,23 +124,19 @@
 
    @media print, screen and (max-width: 960px) { 
 
-    .topnav { 
-      padding: 8px 0; 
-    }
-
     .topnav #myLinks {
         display: none;
       }
 
       .topnav img {
-        display: block;
-        margin: 0 auto;
-        max-height: 55px;
-        height: auto;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: -12.5pt;
+        margin-bottom: -16.5pt;
       }
 
       .topnav a.normal {
-        color: #595959;
+        color: white;
         float: none;
         padding: 14px 16px;
         text-decoration: none;
@@ -153,7 +145,7 @@
       }
 
       .topnav a.icon {
-        color: #595959;
+        color: white;
         display: block;
         padding: 10px 16px;
         font-size: 17px;
@@ -165,7 +157,7 @@
       }
 
       .topnav a.right {
-        color: #595959;
+        color: white;
         float: none;
         padding: 14px 16px;
         text-decoration: none;
