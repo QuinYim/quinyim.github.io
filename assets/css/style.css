@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /* Enable sticky footer with flexbox */
-html { height: 100%; }
+html { height: 100%; scrollbar-gutter: stable; }
 body { 
   background-color: #fff; 
   padding: 0px; 
@@ -14,6 +14,11 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+/* Fallback for browsers without scrollbar-gutter support: always reserve vertical scrollbar space */
+@supports not (scrollbar-gutter: stable) {
+  html { overflow-y: scroll; }
 }
 
 .pub-row { display: flex; align-items: center; }
