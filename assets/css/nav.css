@@ -1,6 +1,7 @@
-/* Add a black background color to the top navigation */
+/* Top navigation */
 .topnav {
-    background-color: #A22C28;
+    background-color: #fff; /* unified with page background */
+    border-bottom: 1px solid #e5e5e5; /* subtle separation from content */
     overflow: hidden;
 	  position:fixed;
 	  z-index:999;
@@ -25,7 +26,7 @@
   /* Style the links inside the navigation bar */
   .topnav a.normal {
     float: right;
-    color: #f2f2f2;
+    color: #595959; /* match body text color */
     text-align: center;
     padding: 10px 9px;
     text-decoration: none;
@@ -136,7 +137,7 @@
       }
 
       .topnav a.normal {
-        color: white;
+        color: #595959; /* match body text color */
         float: none;
         padding: 14px 16px;
         text-decoration: none;
@@ -145,7 +146,7 @@
       }
 
       .topnav a.icon {
-        color: white;
+        color: #595959; /* match body text color */
         display: block;
         padding: 10px 16px;
         font-size: 17px;
@@ -157,7 +158,7 @@
       }
 
       .topnav a.right {
-        color: white;
+        color: #595959; /* match body text color */
         float: none;
         padding: 14px 16px;
         text-decoration: none;
