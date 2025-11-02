@@ -1,7 +1,7 @@
 /* Top navigation */
 .topnav {
     background-color: #fff; /* unified with page background */
-    border-bottom: 1px solid #e5e5e5; /* subtle separation from content */
+    /* removed bottom border to keep original seamless look */
     overflow: hidden;
 	  position:fixed;
 	  z-index:999;
