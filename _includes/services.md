@@ -2,13 +2,20 @@
 
 <h2 style="margin: 60px 0px 10px;">Services</h2>
 
+<h4 style="margin:0 10px 0;">Journal Editorship</h4>
+
+<ul style="margin:0 0 20px;">
+  <li>Young Editor, <a href="https://www.elspub.com/journals/blockchain/home/" target="_blank" rel="noopener noreferrer"><autocolor>Blockchain</autocolor></a>, 2025 -</li>
+</ul>
+
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
 
 <ul style="margin:0 0 20px;">
   <li><a href="https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Industrial Informatics</autocolor></a></li>
   <li><a href="https://www.comsoc.org/publications/journals/ieee-tnse" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Network Science and Engineering</autocolor></a></li>
   <li><a href="https://www.comsoc.org/publications/journals/ieee-tnsm" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Network and Service Management</autocolor></a></li>
-    <li><a href="https://www.ieeesmc.org/publications/transactions-on-computational-social-systems/" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Computational Social Systems</autocolor></a></li>
+  <li><a href="https://www.comsoc.org/publications/journals/ieee-tgcn" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Green Communications and Networking</autocolor></a></li>
+  <li><a href="https://www.ieeesmc.org/publications/transactions-on-computational-social-systems/" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Computational Social Systems</autocolor></a></li>
   <li><a href="https://ieee-iotj.org" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Internet of Things Journal</autocolor></a></li>
   <li><a href="https://www.comsoc.org/publications/journals/ieee-comml" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Communications Letters</autocolor></a></li>
   <li><a href="https://ctsoc.ieee.org/publications/ieee-consumer-electronics-magazine.html" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Consumer Electronics Magazine</autocolor></a></li>
