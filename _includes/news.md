@@ -9,7 +9,7 @@
   <li><strong>[Jan. 2025]</strong> Our paper about collaborative filtering recommendation systems with privacy protection is accepted to <strong>Complex & Intelligent Systems</strong>.</li>
   
 
-<li> <a href="#" onclick="toggleVis(this); return false;">Show more</a> </li>
+<li> <a href="#" onclick="toggleVis(this); return false;"><autocolor>Show more</autocolor></a> </li>
 <div id="newsmore" style="display:none"> 
   <li><strong>[Nov. 2024]</strong> I receive the <strong>National Scholarship</strong>.</li>
   <li><strong>[Aug. 2024]</strong> Our paper about spectrum sharing in 6G networks is accepted to <strong>IEEE Wireless Communications</strong>.</li>
