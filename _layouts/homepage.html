@@ -38,10 +38,12 @@
         var div = document.getElementById('newsmore');
         if (div.style.display === 'none') {
           div.style.display = 'block';
-          link.textContent = 'Show less';
+          // keep link text color consistent with body text using <autocolor>
+          link.innerHTML = '<autocolor>Show less</autocolor>';
         } else {
           div.style.display = 'none';
-          link.textContent = 'Show more';
+          // keep link text color consistent with body text using <autocolor>
+          link.innerHTML = '<autocolor>Show more</autocolor>';
         }
       }
     </script>
