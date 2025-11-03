@@ -228,3 +228,8 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
     background-color: #f5f5f5 !important;
   }
 }
+
+/* News toggle link: make "Show more/less" bold without changing its color */
+a[onclick*="toggleVis"] {
+  font-weight: 600;
+}
