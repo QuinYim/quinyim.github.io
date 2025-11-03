@@ -38,11 +38,11 @@
         var div = document.getElementById('newsmore');
         if (div.style.display === 'none') {
           div.style.display = 'block';
-          // keep link text color consistent with body text and make it bold
+          // keep link text color consistent with body text using <autocolor> and bold with <strong>
           link.innerHTML = '<strong><autocolor>Show less</autocolor></strong>';
         } else {
           div.style.display = 'none';
-          // keep link text color consistent with body text and make it bold
+          // keep link text color consistent with body text using <autocolor> and bold with <strong>
           link.innerHTML = '<strong><autocolor>Show more</autocolor></strong>';
         }
       }
