@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /* Enable sticky footer with flexbox */
-html { height: 100%; }
+html { 
+  height: 100%; 
+  overflow-y: scroll;
+}
 body { 
   background-color: #fff; 
   padding: 0px; 
