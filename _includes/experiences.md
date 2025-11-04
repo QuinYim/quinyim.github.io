@@ -4,7 +4,7 @@
   <span><strong>Postdoctoral Fellow</strong></span>
   <span>Jan. 2026 - Now</span>
 </div>
-<ul style="font-size: 0.95em; margin-top 2px; padding-left: 16px;">
+<ul style="font-size: 0.95em; margin-top: 2px; padding-left: 16px;">
   <li>Department of Industrial and Systems Engineering, <strong> The Hong Kong Polytechnic University</strong>.</li>
   <li>Research Area: Blockchain and Web3</li>
 </ul>
