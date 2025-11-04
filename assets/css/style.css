@@ -98,7 +98,7 @@ a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 a:hover small { color: #777; }
 
 .wrapper { 
-  width: 960px; 
+  width: 1068px; 
   margin: 0 auto; 
   flex: 1 0 auto; /* allow wrapper to grow and push bottom-meta down */
 }
@@ -142,7 +142,7 @@ header ul li + li + li { border-right: none; width: 89px; }
 header ul a strong { font-size: 14px; display: block; color: #222; }
 
 section { 
-  width: 612px; 
+  width: 720px; 
   float: right; 
   padding-top: 1.2em; 
   padding-bottom: 50px;
