@@ -73,9 +73,9 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image.avatar:before { display: none; }
 
-.image.avatar img { border-radius: 100%; width: 80%; padding: 20px; } /* 调大头像，保持与副本样式一致 */
+.image.avatar img { border-radius: 100%; width: 65%; padding: 20px; } 
 
-#header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
+#header .image.avatar { margin: 0 0 1em 0; width: 6.50em; }
 
 h3, h4, h5, h6 { font-weight: 600; color: #13294B; margin: 0 0 20px; }
 
