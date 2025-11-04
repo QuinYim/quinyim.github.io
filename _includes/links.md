@@ -6,9 +6,9 @@
 
 <ul style="margin:0 0 20px;">
 
-  <li><strong>Science and Engineering Journal Abbreviations</strong>, an online tool for looking up journal name abbreviations. [<a href="https://woodward.library.ubc.ca/woodward/research-help/journal-abbreviations/" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+  <li><strong>Science and Engineering Journal Abbreviations</strong>, an online tool for looking up journal name abbreviations. [<a href="https://woodward.library.ubc.ca/woodward/research-help/journal-abbreviations/" target="_blank" rel="noopener noreferrer"><autocolor>Link</autocolor></a>]</li>
 
-  <li><strong>IEEE BibTeX Modifier</strong>, an online tool for optimizing and modifying IEEE journal bib references. [<a href="https://mepeichun.github.io/ieee-bibtex-modifier/" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+  <li><strong>IEEE BibTeX Modifier</strong>, an online tool for optimizing and modifying IEEE journal bib references. [<a href="https://mepeichun.github.io/ieee-bibtex-modifier/" target="_blank" rel="noopener noreferrer"><autocolor>Link</autocolor></a>]</li>
 
 </ul>
 
