@@ -1,6 +1,6 @@
 <h1 id="publications"></h1>
 
-<h2 style="margin: 60px 0px 10px;">Publications <temp style="font-size:15px;">[Copyrights are held by the respective publishers]</temp></h2>
+<h2 style="margin: 60px 0px 10px;">Publications <temp style="font-size:15px;"></temp></h2>
 
 <ul style="margin: 0; padding-left: 0; list-style-position: inside;">
     <li><strong>Kun Yan</strong>, Wenping Ma, and Shaohui Sun, "BECS: A Privacy-Preserving Computing Resource Sharing Mechanism in 6G Computing Power Network," in <em>IEEE Transactions on Network Science and Engineering</em>, vol. 13, pp. 4725-4742, 2026. (IF=7.9) [<a href="https://doi.org/10.1109/TNSE.2025.3643634" target="_blank" rel="noopener noreferrer"><autocolor>Link</autocolor></a>]</li>
