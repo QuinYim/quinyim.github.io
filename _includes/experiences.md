@@ -6,5 +6,5 @@
 </div>
 <ul style="font-size: 0.95em; margin-top: 2px; padding-left: 16px;">
   <li>Department of Industrial and Systems Engineering, <strong> The Hong Kong Polytechnic University</strong>.</li>
-  <li>Research Area: Blockchain, Network Management, and Network Security and Privacy</li>
+  <li>Research Area: Blockchain, SAGIN, Network Management, and Network Security and Privacy</li>
 </ul>
