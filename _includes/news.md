@@ -1,6 +1,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul style="padding-left: 0; margin-left: 0; list-style-position: inside;">
+  <li><strong>[Jul. 2026]</strong> Our paper "Blockchain-Based Dynamic Spectrum Sharing for Service-Centric 6G Networks: An Evolutionary Approach" has been recognized as a <strong>Highly Cited Paper</strong>!</li>
   <li><strong>[Jan. 2026]</strong> I join the Department of Industrial and Systems Engineering at The Hong Kong Polytechnic University as a Postdoctoral Fellow! </li>
   <li><strong>[Dec. 2025]</strong> Our paper about computing resource sharing in 6G Computing Power Network is accepted to <strong>IEEE Transactions on Network Science and Engineering</strong>.</li>
   <li><strong>[Jun. 2025]</strong> Our paper about dynamic spectrum sharing in service-centric 6G networks is accepted to <strong>IEEE Transactions on Network Science and Engineering</strong>.</li>
