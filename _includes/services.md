@@ -21,6 +21,7 @@
   <li><a href="https://www.ieeesmc.org/publications/transactions-on-computational-social-systems/" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Computational Social Systems</autocolor></a></li>
   <li><a href="https://www.comsoc.org/publications/journals/ieee-tnse" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Network Science and Engineering</autocolor></a></li>
   <li><a href="https://www.comsoc.org/publications/journals/ieee-tnsm" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Network and Service Management</autocolor></a></li>
+  <li><a href="https://ieeecss.org/publication/transactions-control-systems-technology" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Control Systems Technology</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tq" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Dependable and Secure Computing</autocolor></a></li>
   <li><a href="https://www.comsoc.org/publications/journals/ieee-tgcn" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Green Communications and Networking</autocolor></a></li>
 </ul>
