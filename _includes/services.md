@@ -14,8 +14,8 @@
   <li><a href="https://ieeeaccess.ieee.org/" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Access</autocolor></a></li>
   <li><a href="https://ieeesystemscouncil.org/publication/ieee-systems-journal" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Systems Journal</autocolor></a></li>
   <li><a href="https://www.comsoc.org/publications/journals/ieee-comml" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Communications Letters</autocolor></a></li>
-  <li><a href="https://www.comsoc.org/publications/magazines/ieee-communications-magazine" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Communications Magazine</autocolor></a></li>
   <li><a href="https://ieee-iotj.org" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Internet of Things Journal</autocolor></a></li>
+  <li><a href="https://www.comsoc.org/publications/magazines/ieee-communications-magazine" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Communications Magazine</autocolor></a></li>
   <li><a href="https://ctsoc.ieee.org/publications/ieee-consumer-electronics-magazine.html" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Consumer Electronics Magazine</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/oj" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Open Journal of the Computer Society</autocolor></a></li>
   <li><a href="https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics" target="_blank" rel="noopener noreferrer"><autocolor>IEEE Transactions on Industrial Informatics</autocolor></a></li>
