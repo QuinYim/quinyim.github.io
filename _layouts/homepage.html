@@ -267,7 +267,8 @@
           <script>
             const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
             var modiDate = new Date(document.lastModified);
-            var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
+            var showAs = monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
+            // var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
             document.write(showAs);
           </script>
         </small>
