@@ -34,6 +34,7 @@
   <li><a href="https://www.sciencedirect.com/journal/vehicular-communications" target="_blank" rel="noopener noreferrer"><autocolor>Vehicular Communications</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank" rel="noopener noreferrer"><autocolor>Expert Systems With Applications</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-network-and-computer-applications" target="_blank" rel="noopener noreferrer"><autocolor>Journal of Network and Computer Applications</autocolor></a></li>
+  <li><a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank" rel="noopener noreferrer"><autocolor>Engineering Applications of Artificial Intelligence</autocolor></a></li>
 </ul>
 
 <ul style="margin:0 0 20px;">
